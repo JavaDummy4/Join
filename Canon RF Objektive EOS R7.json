@@ -1,0 +1,2748 @@
+{
+  "format": "objekt-beziehungsmodell-v1",
+  "name": "Canon RF/RF-S Objektive (AF, kompatibel mit EOS R7)",
+  "nodes": [
+    {
+      "id": "obj_d0e606c",
+      "class": "kamera",
+      "name": "Canon EOS R7",
+      "params": {
+        "sensorformat": {
+          "de": "APS-C (22,3 x 14,8 mm)",
+          "en": "APS-C (22,3 x 14,8 mm)"
+        },
+        "hersteller": {
+          "de": "Canon",
+          "en": "Canon"
+        },
+        "bajonett": {
+          "de": "Canon RF-Mount",
+          "en": "Canon RF-Mount"
+        },
+        "marktstart": {
+          "de": "2022",
+          "en": "2022"
+        },
+        "kontakt": {
+          "de": "Alle RF- und RF-S-Objektive sind nativ kompatibel (RF-Objektive mit 1,6x Cropfaktor)",
+          "en": "Alle RF- und RF-S-Objektive sind nativ kompatibel (RF-Objektive mit 1,6x Cropfaktor)"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 0,
+        "y": 0
+      },
+      "pos3d": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_4d3c263",
+      "class": "objektivtyp",
+      "name": "Weitwinkelobjektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Objektive mit großem Bildwinkel für Landschaft, Architektur und Innenräume",
+          "en": "Objektive mit großem Bildwinkel für Landschaft, Architektur und Innenräume"
+        },
+        "brennweitenbereich": {
+          "de": "8–35 mm",
+          "en": "8–35 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Landschaft, Architektur, Innenaufnahmen",
+          "en": "Landschaft, Architektur, Innenaufnahmen"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 900.0,
+        "y": 0.0
+      },
+      "pos3d": {
+        "x": 900.0,
+        "y": 0.0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_6b58a87",
+      "class": "objektivtyp",
+      "name": "Standardobjektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Objektive im Bereich der \"normalen\" Brennweite, vielseitig einsetzbar",
+          "en": "Objektive im Bereich der \"normalen\" Brennweite, vielseitig einsetzbar"
+        },
+        "brennweitenbereich": {
+          "de": "24–70 mm",
+          "en": "24–70 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Alltag, Porträt, Reportage",
+          "en": "Alltag, Porträt, Reportage"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 561.1408216728603,
+        "y": 703.6483342212268
+      },
+      "pos3d": {
+        "x": 561.1408216728603,
+        "y": 703.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_ced5ec6",
+      "class": "objektivtyp",
+      "name": "Teleobjektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Objektive für entfernte Motive mit spürbarer Bildausschnitt-Vergrößerung",
+          "en": "Objektive für entfernte Motive mit spürbarer Bildausschnitt-Vergrößerung"
+        },
+        "brennweitenbereich": {
+          "de": "70–300 mm",
+          "en": "70–300 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Porträt, Sport, Tierfotografie",
+          "en": "Porträt, Sport, Tierfotografie"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -200.26884056068292,
+        "y": 877.4351209636412
+      },
+      "pos3d": {
+        "x": -200.26884056068292,
+        "y": 877.4351209636412,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_e2a642c",
+      "class": "objektivtyp",
+      "name": "Supertele-Objektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Extrem lange Brennweiten für sehr weit entfernte Motive",
+          "en": "Extrem lange Brennweiten für sehr weit entfernte Motive"
+        },
+        "brennweitenbereich": {
+          "de": "400–1200 mm",
+          "en": "400–1200 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Wildlife, Vogel-, Luft- und Sportfotografie",
+          "en": "Wildlife, Vogel-, Luft- und Sportfotografie"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -810.8719811121771,
+        "y": 390.4953652058024
+      },
+      "pos3d": {
+        "x": -810.8719811121771,
+        "y": 390.4953652058024,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c321eb8",
+      "class": "objektivtyp",
+      "name": "Makroobjektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Objektive für Aufnahmen im Nahbereich bis 1:1-Abbildungsmaßstab",
+          "en": "Objektive für Aufnahmen im Nahbereich bis 1:1-Abbildungsmaßstab"
+        },
+        "brennweitenbereich": {
+          "de": "24–100 mm",
+          "en": "24–100 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Makro-, Produkt- und Naturfotografie",
+          "en": "Makro-, Produkt- und Naturfotografie"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -810.8719811121772,
+        "y": -390.4953652058022
+      },
+      "pos3d": {
+        "x": -810.8719811121772,
+        "y": -390.4953652058022,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_1beb66a",
+      "class": "objektivtyp",
+      "name": "Fisheye-Objektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Objektive mit extrem starker, gewollter Verzeichnung für sehr große Bildwinkel",
+          "en": "Objektive mit extrem starker, gewollter Verzeichnung für sehr große Bildwinkel"
+        },
+        "brennweitenbereich": {
+          "de": "3,9–16 mm",
+          "en": "3,9–16 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Kreative Weitwinkelaufnahmen, VR/3D-Content",
+          "en": "Kreative Weitwinkelaufnahmen, VR/3D-Content"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -200.26884056068312,
+        "y": -877.4351209636412
+      },
+      "pos3d": {
+        "x": -200.26884056068312,
+        "y": -877.4351209636412,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_ecd82a9",
+      "class": "objektivtyp",
+      "name": "Superzoom-Objektiv",
+      "params": {
+        "beschreibung": {
+          "de": "Objektive mit sehr großem Brennweitenbereich von Weitwinkel bis Tele in einem Objektiv",
+          "en": "Objektive mit sehr großem Brennweitenbereich von Weitwinkel bis Tele in einem Objektiv"
+        },
+        "brennweitenbereich": {
+          "de": "18–800 mm",
+          "en": "18–800 mm"
+        },
+        "einsatzgebiet": {
+          "de": "Reise, Alltag, One-Lens-Solution",
+          "en": "Reise, Alltag, One-Lens-Solution"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 561.14082167286,
+        "y": -703.648334221227
+      },
+      "pos3d": {
+        "x": 561.14082167286,
+        "y": -703.648334221227,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c7a04a5",
+      "class": "objektiv",
+      "name": "Canon RF 15-35mm f/2.8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "15–35 mm",
+          "en": "15–35 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "840 g",
+          "en": "840 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 1220.0,
+        "y": 0.0
+      },
+      "pos3d": {
+        "x": 1220.0,
+        "y": 0.0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_64f8e67",
+      "class": "objektiv",
+      "name": "Canon RF 16mm f/2.8 STM",
+      "params": {
+        "brennweite": {
+          "de": "16 mm",
+          "en": "16 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "165 g",
+          "en": "165 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 1126.2741699796952,
+        "y": 226.2741699796952
+      },
+      "pos3d": {
+        "x": 1126.2741699796952,
+        "y": 226.2741699796952,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_82f8e78",
+      "class": "objektiv",
+      "name": "Canon RF 15-30mm f/4.5-6.3 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "15–30 mm",
+          "en": "15–30 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4.5-6.3",
+          "en": "f/4.5-6.3"
+        },
+        "gewicht": {
+          "de": "390 g",
+          "en": "390 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 900.0,
+        "y": 320.0
+      },
+      "pos3d": {
+        "x": 900.0,
+        "y": 320.0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_54e56ac",
+      "class": "objektiv",
+      "name": "Canon RF 14-35mm f/4 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "14–35 mm",
+          "en": "14–35 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4",
+          "en": "f/4"
+        },
+        "gewicht": {
+          "de": "544 g",
+          "en": "544 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 673.7258300203048,
+        "y": 226.27416997969522
+      },
+      "pos3d": {
+        "x": 673.7258300203048,
+        "y": 226.27416997969522,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_bb668a8",
+      "class": "objektiv",
+      "name": "Canon RF 10-20mm f/4 L IS STM",
+      "params": {
+        "brennweite": {
+          "de": "10–20 mm",
+          "en": "10–20 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4",
+          "en": "f/4"
+        },
+        "gewicht": {
+          "de": "570 g",
+          "en": "570 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 580.0,
+        "y": 3.9188697572715304e-14
+      },
+      "pos3d": {
+        "x": 580.0,
+        "y": 3.9188697572715304e-14,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_fc9bf05",
+      "class": "objektiv",
+      "name": "Canon RF-S 10-18mm f/4.5-6.3 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "10–18 mm",
+          "en": "10–18 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4.5-6.3",
+          "en": "f/4.5-6.3"
+        },
+        "gewicht": {
+          "de": "150 g",
+          "en": "150 g"
+        },
+        "sensorformat": {
+          "de": "APS-C",
+          "en": "APS-C"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 673.7258300203048,
+        "y": -226.2741699796952
+      },
+      "pos3d": {
+        "x": 673.7258300203048,
+        "y": -226.2741699796952,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_29dd17f",
+      "class": "objektiv",
+      "name": "Canon RF 24mm f/1.4 L VCM",
+      "params": {
+        "brennweite": {
+          "de": "24 mm",
+          "en": "24 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.4",
+          "en": "f/1.4"
+        },
+        "gewicht": {
+          "de": "515 g",
+          "en": "515 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 899.9999999999999,
+        "y": -320.0
+      },
+      "pos3d": {
+        "x": 899.9999999999999,
+        "y": -320.0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f63ca74",
+      "class": "objektiv",
+      "name": "Canon RF 16-28mm f/2.8 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "16–28 mm",
+          "en": "16–28 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "454 g",
+          "en": "454 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 1126.2741699796952,
+        "y": -226.27416997969527
+      },
+      "pos3d": {
+        "x": 1126.2741699796952,
+        "y": -226.27416997969527,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_fa02703",
+      "class": "objektiv",
+      "name": "Canon RF 24-70mm f/2.8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "24–70 mm",
+          "en": "24–70 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "900 g",
+          "en": "900 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 881.1408216728603,
+        "y": 703.6483342212268
+      },
+      "pos3d": {
+        "x": 881.1408216728603,
+        "y": 703.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_1bc4831",
+      "class": "objektiv",
+      "name": "Canon RF 24-105mm f/4 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "24–105 mm",
+          "en": "24–105 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4",
+          "en": "f/4"
+        },
+        "gewicht": {
+          "de": "700 g",
+          "en": "700 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 838.2689508838807,
+        "y": 863.6483342212268
+      },
+      "pos3d": {
+        "x": 838.2689508838807,
+        "y": 863.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_9f828b9",
+      "class": "objektiv",
+      "name": "Canon RF 24-105mm f/4-7.1 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "24–105 mm",
+          "en": "24–105 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4-7.1",
+          "en": "f/4-7.1"
+        },
+        "gewicht": {
+          "de": "395 g",
+          "en": "395 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 721.1408216728603,
+        "y": 980.7764634322472
+      },
+      "pos3d": {
+        "x": 721.1408216728603,
+        "y": 980.7764634322472,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_ac12c7e",
+      "class": "objektiv",
+      "name": "Canon RF 28-70mm f/2 L USM",
+      "params": {
+        "brennweite": {
+          "de": "28–70 mm",
+          "en": "28–70 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.0",
+          "en": "f/2.0"
+        },
+        "gewicht": {
+          "de": "1430 g",
+          "en": "1430 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 561.1408216728603,
+        "y": 1023.6483342212268
+      },
+      "pos3d": {
+        "x": 561.1408216728603,
+        "y": 1023.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_6631b8c",
+      "class": "objektiv",
+      "name": "Canon RF 50mm f/1.8 STM",
+      "params": {
+        "brennweite": {
+          "de": "50 mm",
+          "en": "50 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.8",
+          "en": "f/1.8"
+        },
+        "gewicht": {
+          "de": "160 g",
+          "en": "160 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 401.14082167286034,
+        "y": 980.7764634322473
+      },
+      "pos3d": {
+        "x": 401.14082167286034,
+        "y": 980.7764634322473,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_3f79f29",
+      "class": "objektiv",
+      "name": "Canon RF 50mm f/1.2 L USM",
+      "params": {
+        "brennweite": {
+          "de": "50 mm",
+          "en": "50 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.2",
+          "en": "f/1.2"
+        },
+        "gewicht": {
+          "de": "950 g",
+          "en": "950 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 284.0126924618399,
+        "y": 863.6483342212268
+      },
+      "pos3d": {
+        "x": 284.0126924618399,
+        "y": 863.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_7d7431f",
+      "class": "objektiv",
+      "name": "Canon RF-S 18-45mm f/4.5-6.3 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "18–45 mm",
+          "en": "18–45 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4.5-6.3",
+          "en": "f/4.5-6.3"
+        },
+        "gewicht": {
+          "de": "130 g",
+          "en": "130 g"
+        },
+        "sensorformat": {
+          "de": "APS-C",
+          "en": "APS-C"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 241.14082167286028,
+        "y": 703.6483342212268
+      },
+      "pos3d": {
+        "x": 241.14082167286028,
+        "y": 703.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_821a039",
+      "class": "objektiv",
+      "name": "Canon RF 24-50mm f/4.5-6.3 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "24–50 mm",
+          "en": "24–50 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4.5-6.3",
+          "en": "f/4.5-6.3"
+        },
+        "gewicht": {
+          "de": "210 g",
+          "en": "210 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 284.01269246183995,
+        "y": 543.6483342212268
+      },
+      "pos3d": {
+        "x": 284.01269246183995,
+        "y": 543.6483342212268,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_7c79400",
+      "class": "objektiv",
+      "name": "Canon RF 28mm f/2.8 STM",
+      "params": {
+        "brennweite": {
+          "de": "28 mm",
+          "en": "28 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "120 g",
+          "en": "120 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 401.14082167286017,
+        "y": 426.52020501020655
+      },
+      "pos3d": {
+        "x": 401.14082167286017,
+        "y": 426.52020501020655,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a360499",
+      "class": "objektiv",
+      "name": "Canon RF 24-105mm f/2.8 L IS USM Z",
+      "params": {
+        "brennweite": {
+          "de": "24–105 mm",
+          "en": "24–105 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "1300 g",
+          "en": "1300 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 561.1408216728602,
+        "y": 383.64833422122683
+      },
+      "pos3d": {
+        "x": 561.1408216728602,
+        "y": 383.64833422122683,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_3f8cfc5",
+      "class": "objektiv",
+      "name": "Canon RF 35mm f/1.4 L VCM",
+      "params": {
+        "brennweite": {
+          "de": "35 mm",
+          "en": "35 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.4",
+          "en": "f/1.4"
+        },
+        "gewicht": {
+          "de": "555 g",
+          "en": "555 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 721.1408216728603,
+        "y": 426.5202050102065
+      },
+      "pos3d": {
+        "x": 721.1408216728603,
+        "y": 426.5202050102065,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_cc84218",
+      "class": "objektiv",
+      "name": "Canon RF 50mm f/1.4 L VCM",
+      "params": {
+        "brennweite": {
+          "de": "50 mm",
+          "en": "50 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.4",
+          "en": "f/1.4"
+        },
+        "gewicht": {
+          "de": "580 g",
+          "en": "580 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 838.2689508838805,
+        "y": 543.6483342212267
+      },
+      "pos3d": {
+        "x": 838.2689508838805,
+        "y": 543.6483342212267,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_3738f3c",
+      "class": "objektiv",
+      "name": "Canon RF 70-200mm f/4 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "70–200 mm",
+          "en": "70–200 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4",
+          "en": "f/4"
+        },
+        "gewicht": {
+          "de": "695 g",
+          "en": "695 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 119.73115943931708,
+        "y": 877.4351209636412
+      },
+      "pos3d": {
+        "x": 119.73115943931708,
+        "y": 877.4351209636412,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a112f99",
+      "class": "objektiv",
+      "name": "Canon RF 70-200mm f/2.8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "70–200 mm",
+          "en": "70–200 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "1070 g",
+          "en": "1070 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 58.61659763930027,
+        "y": 1065.5264016972326
+      },
+      "pos3d": {
+        "x": 58.61659763930027,
+        "y": 1065.5264016972326,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_75297db",
+      "class": "objektiv",
+      "name": "Canon RF 85mm f/1.2 L USM",
+      "params": {
+        "brennweite": {
+          "de": "85 mm",
+          "en": "85 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.2",
+          "en": "f/1.2"
+        },
+        "gewicht": {
+          "de": "1195 g",
+          "en": "1195 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -101.38340236069973,
+        "y": 1181.7732061780903
+      },
+      "pos3d": {
+        "x": -101.38340236069973,
+        "y": 1181.7732061780903,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_97d99fa",
+      "class": "objektiv",
+      "name": "Canon RF 85mm f/1.2 L USM DS",
+      "params": {
+        "brennweite": {
+          "de": "85 mm",
+          "en": "85 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.2",
+          "en": "f/1.2"
+        },
+        "gewicht": {
+          "de": "1195 g",
+          "en": "1195 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -299.1542787606661,
+        "y": 1181.7732061780903
+      },
+      "pos3d": {
+        "x": -299.1542787606661,
+        "y": 1181.7732061780903,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_7604aaf",
+      "class": "objektiv",
+      "name": "Canon RF 100-400mm f/5.6-8 IS USM",
+      "params": {
+        "brennweite": {
+          "de": "100–400 mm",
+          "en": "100–400 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/5.6-8",
+          "en": "f/5.6-8"
+        },
+        "gewicht": {
+          "de": "635 g",
+          "en": "635 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -459.15427876066605,
+        "y": 1065.5264016972326
+      },
+      "pos3d": {
+        "x": -459.15427876066605,
+        "y": 1065.5264016972326,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_4878258",
+      "class": "objektiv",
+      "name": "Canon RF 100-500mm f/4.5-7.1 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "100–500 mm",
+          "en": "100–500 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4.5-7.1",
+          "en": "f/4.5-7.1"
+        },
+        "gewicht": {
+          "de": "1365 g",
+          "en": "1365 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -520.268840560683,
+        "y": 877.4351209636412
+      },
+      "pos3d": {
+        "x": -520.268840560683,
+        "y": 877.4351209636412,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_8b536a8",
+      "class": "objektiv",
+      "name": "Canon RF 135mm f/1.8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "135 mm",
+          "en": "135 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.8",
+          "en": "f/1.8"
+        },
+        "gewicht": {
+          "de": "935 g",
+          "en": "935 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -459.15427876066616,
+        "y": 689.3438402300499
+      },
+      "pos3d": {
+        "x": -459.15427876066616,
+        "y": 689.3438402300499,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_18de62d",
+      "class": "objektiv",
+      "name": "Canon RF-S 55-210mm f/5-7.1 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "55–210 mm",
+          "en": "55–210 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/5-7.1",
+          "en": "f/5-7.1"
+        },
+        "gewicht": {
+          "de": "270 g",
+          "en": "270 g"
+        },
+        "sensorformat": {
+          "de": "APS-C",
+          "en": "APS-C"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -299.1542787606661,
+        "y": 573.0970357491922
+      },
+      "pos3d": {
+        "x": -299.1542787606661,
+        "y": 573.0970357491922,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_9fe1ee2",
+      "class": "objektiv",
+      "name": "Canon RF 100-300mm f/2.8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "100–300 mm",
+          "en": "100–300 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "2590 g",
+          "en": "2590 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -101.3834023606998,
+        "y": 573.0970357491921
+      },
+      "pos3d": {
+        "x": -101.3834023606998,
+        "y": 573.0970357491921,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_8cc301a",
+      "class": "objektiv",
+      "name": "Canon RF 70-200mm f/2.8 L IS USM Z",
+      "params": {
+        "brennweite": {
+          "de": "70–200 mm",
+          "en": "70–200 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "1115 g",
+          "en": "1115 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 58.61659763930021,
+        "y": 689.3438402300498
+      },
+      "pos3d": {
+        "x": 58.61659763930021,
+        "y": 689.3438402300498,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_53d42d7",
+      "class": "objektiv",
+      "name": "Canon RF 400mm f/2.8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "400 mm",
+          "en": "400 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "2900 g",
+          "en": "2900 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -490.8719811121771,
+        "y": 390.4953652058024
+      },
+      "pos3d": {
+        "x": -490.8719811121771,
+        "y": 390.4953652058024,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_27a2af9",
+      "class": "objektiv",
+      "name": "Canon RF 600mm f/11 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "600 mm",
+          "en": "600 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/11",
+          "en": "f/11"
+        },
+        "gewicht": {
+          "de": "930 g",
+          "en": "930 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -611.3552445173823,
+        "y": 640.6814395955719
+      },
+      "pos3d": {
+        "x": -611.3552445173823,
+        "y": 640.6814395955719,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_bf25084",
+      "class": "objektiv",
+      "name": "Canon RF 600mm f/4 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "600 mm",
+          "en": "600 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4",
+          "en": "f/4"
+        },
+        "gewicht": {
+          "de": "3100 g",
+          "en": "3100 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -882.0786799781977,
+        "y": 702.472297103986
+      },
+      "pos3d": {
+        "x": -882.0786799781977,
+        "y": 702.472297103986,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_829167c",
+      "class": "objektiv",
+      "name": "Canon RF 800mm f/11 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "800 mm",
+          "en": "800 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/11",
+          "en": "f/11"
+        },
+        "gewicht": {
+          "de": "1260 g",
+          "en": "1260 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -1099.182018840951,
+        "y": 529.3381617234211
+      },
+      "pos3d": {
+        "x": -1099.182018840951,
+        "y": 529.3381617234211,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_ead7b9b",
+      "class": "objektiv",
+      "name": "Canon RF 800mm f/5.6 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "800 mm",
+          "en": "800 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/5.6",
+          "en": "f/5.6"
+        },
+        "gewicht": {
+          "de": "3140 g",
+          "en": "3140 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -1099.1820188409513,
+        "y": 251.65256868818383
+      },
+      "pos3d": {
+        "x": -1099.1820188409513,
+        "y": 251.65256868818383,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_b6ed574",
+      "class": "objektiv",
+      "name": "Canon RF 1200mm f/8 L IS USM",
+      "params": {
+        "brennweite": {
+          "de": "1200 mm",
+          "en": "1200 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/8",
+          "en": "f/8"
+        },
+        "gewicht": {
+          "de": "3340 g",
+          "en": "3340 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -882.0786799781978,
+        "y": 78.5184333076188
+      },
+      "pos3d": {
+        "x": -882.0786799781978,
+        "y": 78.5184333076188,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_96444bf",
+      "class": "objektiv",
+      "name": "Canon RF 200-800mm f/6.3-9 IS USM",
+      "params": {
+        "brennweite": {
+          "de": "200–800 mm",
+          "en": "200–800 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/6.3-9",
+          "en": "f/6.3-9"
+        },
+        "gewicht": {
+          "de": "2000 g",
+          "en": "2000 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -611.3552445173824,
+        "y": 140.3092908160328
+      },
+      "pos3d": {
+        "x": -611.3552445173824,
+        "y": 140.3092908160328,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_b53e32a",
+      "class": "objektiv",
+      "name": "Canon RF 35mm f/1.8 IS Macro STM",
+      "params": {
+        "brennweite": {
+          "de": "35 mm",
+          "en": "35 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.8",
+          "en": "f/1.8"
+        },
+        "gewicht": {
+          "de": "305 g",
+          "en": "305 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -490.8719811121772,
+        "y": -390.4953652058022
+      },
+      "pos3d": {
+        "x": -490.8719811121772,
+        "y": -390.4953652058022,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_70ef073",
+      "class": "objektiv",
+      "name": "Canon RF 85mm f/2 Macro IS STM",
+      "params": {
+        "brennweite": {
+          "de": "85 mm",
+          "en": "85 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.0",
+          "en": "f/2.0"
+        },
+        "gewicht": {
+          "de": "500 g",
+          "en": "500 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -810.8719811121772,
+        "y": -70.49536520580222
+      },
+      "pos3d": {
+        "x": -810.8719811121772,
+        "y": -70.49536520580222,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_451e490",
+      "class": "objektiv",
+      "name": "Canon RF 100mm f/2.8 L IS Macro USM",
+      "params": {
+        "brennweite": {
+          "de": "100 mm",
+          "en": "100 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "730 g",
+          "en": "730 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -1130.8719811121773,
+        "y": -390.49536520580216
+      },
+      "pos3d": {
+        "x": -1130.8719811121773,
+        "y": -390.49536520580216,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f5b7a58",
+      "class": "objektiv",
+      "name": "Canon RF 24mm f/1.8 Macro IS STM",
+      "params": {
+        "brennweite": {
+          "de": "24 mm",
+          "en": "24 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/1.8",
+          "en": "f/1.8"
+        },
+        "gewicht": {
+          "de": "270 g",
+          "en": "270 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -810.8719811121773,
+        "y": -710.4953652058023
+      },
+      "pos3d": {
+        "x": -810.8719811121773,
+        "y": -710.4953652058023,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_07b24c9",
+      "class": "objektiv",
+      "name": "Canon RF 5.2mm f/2.8 L Dual Fisheye 3D VR",
+      "params": {
+        "brennweite": {
+          "de": "5,2 mm",
+          "en": "5,2 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/2.8",
+          "en": "f/2.8"
+        },
+        "gewicht": {
+          "de": "352 g",
+          "en": "352 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 119.73115943931688,
+        "y": -877.4351209636412
+      },
+      "pos3d": {
+        "x": 119.73115943931688,
+        "y": -877.4351209636412,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_8c51c9d",
+      "class": "objektiv",
+      "name": "Canon RF-S 3.9mm f/3.5 STM Dual Fisheye",
+      "params": {
+        "brennweite": {
+          "de": "3,9 mm",
+          "en": "3,9 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/3.5",
+          "en": "f/3.5"
+        },
+        "gewicht": {
+          "de": "289 g",
+          "en": "289 g"
+        },
+        "sensorformat": {
+          "de": "APS-C",
+          "en": "APS-C"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -360.2688405606831,
+        "y": -600.3069917526209
+      },
+      "pos3d": {
+        "x": -360.2688405606831,
+        "y": -600.3069917526209,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_409b987",
+      "class": "objektiv",
+      "name": "Canon RF-S 7.8mm f/4 STM Dual Lens",
+      "params": {
+        "brennweite": {
+          "de": "7,8 mm",
+          "en": "7,8 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4",
+          "en": "f/4"
+        },
+        "gewicht": {
+          "de": "131 g",
+          "en": "131 g"
+        },
+        "sensorformat": {
+          "de": "APS-C",
+          "en": "APS-C"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -360.26884056068326,
+        "y": -1154.5632501746616
+      },
+      "pos3d": {
+        "x": -360.26884056068326,
+        "y": -1154.5632501746616,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_84d8750",
+      "class": "objektiv",
+      "name": "Canon RF 24-240mm f/4-6.3 IS USM",
+      "params": {
+        "brennweite": {
+          "de": "24–240 mm",
+          "en": "24–240 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/4-6.3",
+          "en": "f/4-6.3"
+        },
+        "gewicht": {
+          "de": "751 g",
+          "en": "751 g"
+        },
+        "sensorformat": {
+          "de": "Vollformat",
+          "en": "Vollformat"
+        },
+        "bildstabilisator": {
+          "de": "Ja",
+          "en": "Ja"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 881.14082167286,
+        "y": -703.648334221227
+      },
+      "pos3d": {
+        "x": 881.14082167286,
+        "y": -703.648334221227,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_3520660",
+      "class": "objektiv",
+      "name": "Canon RF-S 18-150mm f/3.5-6.3 IS STM",
+      "params": {
+        "brennweite": {
+          "de": "18–150 mm",
+          "en": "18–150 mm"
+        },
+        "lichtstaerke": {
+          "de": "f/3.5-6.3",
+          "en": "f/3.5-6.3"
+        },
+        "gewicht": {
+          "de": "310 g",
+          "en": "310 g"
+        },
+        "sensorformat": {
+          "de": "APS-C",
+          "en": "APS-C"
+        },
+        "bildstabilisator": {
+          "de": "Nein",
+          "en": "Nein"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 241.14082167286006,
+        "y": -703.648334221227
+      },
+      "pos3d": {
+        "x": 241.14082167286006,
+        "y": -703.648334221227,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_f03045e",
+      "from": "obj_4d3c263",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_642dc7c",
+      "from": "obj_6b58a87",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d78b996",
+      "from": "obj_ced5ec6",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_58b71e4",
+      "from": "obj_e2a642c",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_e8b21f5",
+      "from": "obj_c321eb8",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_58760fa",
+      "from": "obj_1beb66a",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d07c07f",
+      "from": "obj_ecd82a9",
+      "to": "obj_d0e606c",
+      "rolle": {
+        "de": "kompatibel mit (AF)",
+        "en": "kompatibel mit (AF)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_f4a971f",
+      "from": "obj_c7a04a5",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a68ca42",
+      "from": "obj_64f8e67",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_9abef56",
+      "from": "obj_82f8e78",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_9c989b2",
+      "from": "obj_54e56ac",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_7332692",
+      "from": "obj_bb668a8",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_cf4b085",
+      "from": "obj_fc9bf05",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c2f1239",
+      "from": "obj_29dd17f",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_f364be3",
+      "from": "obj_f63ca74",
+      "to": "obj_4d3c263",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_cc718ed",
+      "from": "obj_fa02703",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_b497f9e",
+      "from": "obj_1bc4831",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_bff0e76",
+      "from": "obj_9f828b9",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_b72dfe4",
+      "from": "obj_ac12c7e",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_24a59b8",
+      "from": "obj_6631b8c",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d3a4c6a",
+      "from": "obj_3f79f29",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_ac6f4f6",
+      "from": "obj_7d7431f",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d81c636",
+      "from": "obj_821a039",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_53bb8c1",
+      "from": "obj_7c79400",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_3d3b388",
+      "from": "obj_a360499",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a7ed3d8",
+      "from": "obj_3f8cfc5",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_1e081e6",
+      "from": "obj_cc84218",
+      "to": "obj_6b58a87",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_8a6c634",
+      "from": "obj_3738f3c",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_0816590",
+      "from": "obj_a112f99",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_e96f213",
+      "from": "obj_75297db",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_2a549f6",
+      "from": "obj_97d99fa",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_7e815f1",
+      "from": "obj_7604aaf",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_edd3f63",
+      "from": "obj_4878258",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_3119dcb",
+      "from": "obj_8b536a8",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a8be55f",
+      "from": "obj_18de62d",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_ad96b08",
+      "from": "obj_9fe1ee2",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_1ddc3bd",
+      "from": "obj_8cc301a",
+      "to": "obj_ced5ec6",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_6ced44e",
+      "from": "obj_53d42d7",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c3c4751",
+      "from": "obj_27a2af9",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_8c181bf",
+      "from": "obj_bf25084",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_cb6a376",
+      "from": "obj_829167c",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_60e09e6",
+      "from": "obj_ead7b9b",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_253396f",
+      "from": "obj_b6ed574",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_69c2452",
+      "from": "obj_96444bf",
+      "to": "obj_e2a642c",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_57e2377",
+      "from": "obj_b53e32a",
+      "to": "obj_c321eb8",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_f45c17b",
+      "from": "obj_70ef073",
+      "to": "obj_c321eb8",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_71d0a48",
+      "from": "obj_451e490",
+      "to": "obj_c321eb8",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_581998e",
+      "from": "obj_f5b7a58",
+      "to": "obj_c321eb8",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d7fb5aa",
+      "from": "obj_07b24c9",
+      "to": "obj_1beb66a",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a5cad6e",
+      "from": "obj_8c51c9d",
+      "to": "obj_1beb66a",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_0a3522c",
+      "from": "obj_409b987",
+      "to": "obj_1beb66a",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_76c3989",
+      "from": "obj_84d8750",
+      "to": "obj_ecd82a9",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_ca9ecbc",
+      "from": "obj_3520660",
+      "to": "obj_ecd82a9",
+      "rolle": {
+        "de": "gehört zur Kategorie",
+        "en": "gehört zur Kategorie"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    }
+  ],
+  "exportedAt": 0
+}

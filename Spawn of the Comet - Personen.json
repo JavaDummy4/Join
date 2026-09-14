@@ -1,0 +1,907 @@
+{
+  "format": "objekt-beziehungsmodell-v1",
+  "name": "Spawn of the Comet – Personenbeziehungen",
+  "nodes": [
+    {
+      "id": "obj_993b866",
+      "class": "werk",
+      "name": "Spawn of the Comet",
+      "params": {
+        "autor": {
+          "de": "Otis Adelbert Kline",
+          "en": "Otis Adelbert Kline"
+        },
+        "erscheinungsjahr": {
+          "de": "1930",
+          "en": "1930"
+        },
+        "gattung": {
+          "de": "Science-Fiction-Novelette",
+          "en": "Science-Fiction-Novelette"
+        },
+        "quelle": {
+          "de": "Argosy All-Story Weekly, 27. September 1930 (Project Gutenberg eBook #79565)",
+          "en": "Argosy All-Story Weekly, 27. September 1930 (Project Gutenberg eBook #79565)"
+        },
+        "kontakt": {
+          "de": "Ich-Erzählung von Dick Perry über eine außerirdische Invasion fliegender, elektrisch aufgeladener Quallen-Wesen, die aus Green's Komet stammen",
+          "en": "Ich-Erzählung von Dick Perry über eine außerirdische Invasion fliegender, elektrisch aufgeladener Quallen-Wesen, die aus Green's Komet stammen"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 0,
+        "y": 0
+      },
+      "pos3d": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_485f25b",
+      "class": "romanfigur",
+      "name": "Dick Perry",
+      "params": {
+        "rolle": {
+          "de": "Ich-Erzähler und Hauptfigur",
+          "en": "Ich-Erzähler und Hauptfigur"
+        },
+        "beruf": {
+          "de": "Büroangestellter in Chicago",
+          "en": "Büroangestellter in Chicago"
+        },
+        "beschreibung": {
+          "de": "Verlobter, später Ehemann von Sue Davis; kämpft aktiv gegen die Kometen-Monster",
+          "en": "Verlobter, später Ehemann von Sue Davis; kämpft aktiv gegen die Kometen-Monster"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 700.0,
+        "y": 0.0
+      },
+      "pos3d": {
+        "x": 700.0,
+        "y": 0.0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_8caea86",
+      "class": "romanfigur",
+      "name": "Sue Davis",
+      "params": {
+        "rolle": {
+          "de": "Hauptfigur",
+          "en": "Hauptfigur"
+        },
+        "beruf": {
+          "de": "Tochter von Professor Davis",
+          "en": "Tochter von Professor Davis"
+        },
+        "beschreibung": {
+          "de": "Verlobte, später Ehefrau von Dick Perry; hilft aktiv bei der Verteidigung der Farm",
+          "en": "Verlobte, später Ehefrau von Dick Perry; hilft aktiv bei der Verteidigung der Farm"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 630.6782075316934,
+        "y": 303.7186173822907
+      },
+      "pos3d": {
+        "x": 630.6782075316934,
+        "y": 303.7186173822907,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_b9d5e38",
+      "class": "romanfigur",
+      "name": "Professor Absolom Davis",
+      "params": {
+        "rolle": {
+          "de": "Hauptfigur",
+          "en": "Hauptfigur"
+        },
+        "beruf": {
+          "de": "Biologe und Biochemiker",
+          "en": "Biologe und Biochemiker"
+        },
+        "beschreibung": {
+          "de": "Sues Vater; erforscht die außerirdischen Kreaturen und entdeckt Blausäure/Zyanid als wirksames Mittel gegen sie",
+          "en": "Sues Vater; erforscht die außerirdischen Kreaturen und entdeckt Blausäure/Zyanid als wirksames Mittel gegen sie"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 436.4428613011135,
+        "y": 547.2820377276208
+      },
+      "pos3d": {
+        "x": 436.4428613011135,
+        "y": 547.2820377276208,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_4810ef8",
+      "class": "romanfigur",
+      "name": "Mrs. Davis",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Ehefrau von Professor Davis",
+          "en": "Ehefrau von Professor Davis"
+        },
+        "beschreibung": {
+          "de": "Sues Mutter; ruhige, selten aus der Fassung zu bringende Frau",
+          "en": "Sues Mutter; ruhige, selten aus der Fassung zu bringende Frau"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 155.7646537694201,
+        "y": 682.4495385272766
+      },
+      "pos3d": {
+        "x": 155.7646537694201,
+        "y": 682.4495385272766,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_45f720a",
+      "class": "romanfigur",
+      "name": "Wong",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Chinesischer Butler der Familie Davis",
+          "en": "Chinesischer Butler der Familie Davis"
+        },
+        "beschreibung": {
+          "de": "Effizienter Hausangestellter, hilft aktiv bei der Verteidigung des Hauses",
+          "en": "Effizienter Hausangestellter, hilft aktiv bei der Verteidigung des Hauses"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -155.76465376942002,
+        "y": 682.4495385272766
+      },
+      "pos3d": {
+        "x": -155.76465376942002,
+        "y": 682.4495385272766,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_71ff5a3",
+      "class": "romanfigur",
+      "name": "Jake Smith",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Landarbeiter/Vorarbeiter der Farm",
+          "en": "Landarbeiter/Vorarbeiter der Farm"
+        },
+        "beschreibung": {
+          "de": "Begleitet Dick auf der gefährlichen Fahrt zum Flughafen im selbstgebauten \"Panzer\"",
+          "en": "Begleitet Dick auf der gefährlichen Fahrt zum Flughafen im selbstgebauten \"Panzer\""
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -436.44286130111345,
+        "y": 547.282037727621
+      },
+      "pos3d": {
+        "x": -436.44286130111345,
+        "y": 547.282037727621,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_9e9183a",
+      "class": "romanfigur",
+      "name": "Nora",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Köchin der Familie Davis",
+          "en": "Köchin der Familie Davis"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -630.6782075316934,
+        "y": 303.71861738229074
+      },
+      "pos3d": {
+        "x": -630.6782075316934,
+        "y": 303.71861738229074,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_4596072",
+      "class": "romanfigur",
+      "name": "Sievers",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Landarbeiter der Farm",
+          "en": "Landarbeiter der Farm"
+        },
+        "beschreibung": {
+          "de": "Warnt die Familie vor der heranziehenden Monster-Wolke",
+          "en": "Warnt die Familie vor der heranziehenden Monster-Wolke"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -700.0,
+        "y": 8.572527594031473e-14
+      },
+      "pos3d": {
+        "x": -700.0,
+        "y": 8.572527594031473e-14,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_0c37b83",
+      "class": "romanfigur",
+      "name": "Captain Felton",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Kommandant des örtlichen Flugplatzes",
+          "en": "Kommandant des örtlichen Flugplatzes"
+        },
+        "beschreibung": {
+          "de": "Übergibt Dick und Smith Munition und Waffen der Armee",
+          "en": "Übergibt Dick und Smith Munition und Waffen der Armee"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -630.6782075316934,
+        "y": -303.71861738229063
+      },
+      "pos3d": {
+        "x": -630.6782075316934,
+        "y": -303.71861738229063,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_7472d93",
+      "class": "romanfigur",
+      "name": "Ole Hansen",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Corporal der US-Armee",
+          "en": "Corporal der US-Armee"
+        },
+        "beschreibung": {
+          "de": "Wird von Captain Felton abgestellt, um Dick und Smith im Umgang mit Militärwaffen zu unterweisen",
+          "en": "Wird von Captain Felton abgestellt, um Dick und Smith im Umgang mit Militärwaffen zu unterweisen"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -436.44286130111357,
+        "y": -547.2820377276208
+      },
+      "pos3d": {
+        "x": -436.44286130111357,
+        "y": -547.2820377276208,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_aec6cc6",
+      "class": "romanfigur",
+      "name": "Banker Crolius",
+      "params": {
+        "rolle": {
+          "de": "Opfer",
+          "en": "Opfer"
+        },
+        "beruf": {
+          "de": "Bankier aus Sterling",
+          "en": "Bankier aus Sterling"
+        },
+        "beschreibung": {
+          "de": "Verschwindet spurlos beim Autofahren – frühes Opfer der Kometen-Kreatur",
+          "en": "Verschwindet spurlos beim Autofahren – frühes Opfer der Kometen-Kreatur"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": -155.76465376942022,
+        "y": -682.4495385272766
+      },
+      "pos3d": {
+        "x": -155.76465376942022,
+        "y": -682.4495385272766,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_e2d732c",
+      "class": "romanfigur",
+      "name": "Pilot Jackson",
+      "params": {
+        "rolle": {
+          "de": "Opfer",
+          "en": "Opfer"
+        },
+        "beruf": {
+          "de": "Postflugzeug-Pilot",
+          "en": "Postflugzeug-Pilot"
+        },
+        "beschreibung": {
+          "de": "Verschwindet während des Flugs; seine Skelettreste fallen später über Tampico vom Himmel",
+          "en": "Verschwindet während des Flugs; seine Skelettreste fallen später über Tampico vom Himmel"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 155.76465376941934,
+        "y": -682.4495385272767
+      },
+      "pos3d": {
+        "x": 155.76465376941934,
+        "y": -682.4495385272767,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_69a9012",
+      "class": "romanfigur",
+      "name": "William Aldrich",
+      "params": {
+        "rolle": {
+          "de": "Opfer (Nebenfigur)",
+          "en": "Opfer (Nebenfigur)"
+        },
+        "beruf": {
+          "de": "Bürger von Tampico",
+          "en": "Bürger von Tampico"
+        },
+        "beschreibung": {
+          "de": "Wird von einem vom Himmel fallenden Schädel (vermutlich Jacksons) am Schulterknochen verletzt",
+          "en": "Wird von einem vom Himmel fallenden Schädel (vermutlich Jacksons) am Schulterknochen verletzt"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 436.44286130111334,
+        "y": -547.282037727621
+      },
+      "pos3d": {
+        "x": 436.44286130111334,
+        "y": -547.282037727621,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_b0c6544",
+      "class": "romanfigur",
+      "name": "Dr. Brown",
+      "params": {
+        "rolle": {
+          "de": "Nebenfigur",
+          "en": "Nebenfigur"
+        },
+        "beruf": {
+          "de": "Arzt in Tampico",
+          "en": "Arzt in Tampico"
+        },
+        "beschreibung": {
+          "de": "Untersucht Aldrichs Verletzung und die vom Himmel gefallenen Knochen",
+          "en": "Untersucht Aldrichs Verletzung und die vom Himmel gefallenen Knochen"
+        }
+      },
+      "group": "A",
+      "pos2d": {
+        "x": 630.6782075316936,
+        "y": -303.71861738229023
+      },
+      "pos3d": {
+        "x": 630.6782075316936,
+        "y": -303.71861738229023,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_47415c7",
+      "from": "obj_485f25b",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_9f9fc34",
+      "from": "obj_8caea86",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_6a89a93",
+      "from": "obj_b9d5e38",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_1466e86",
+      "from": "obj_4810ef8",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_3e8ddae",
+      "from": "obj_45f720a",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_be7849a",
+      "from": "obj_71ff5a3",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_63227a1",
+      "from": "obj_9e9183a",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_064ae90",
+      "from": "obj_4596072",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_9603e81",
+      "from": "obj_0c37b83",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_fcbf390",
+      "from": "obj_7472d93",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_f788eac",
+      "from": "obj_aec6cc6",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_2f53d1c",
+      "from": "obj_e2d732c",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_0643b75",
+      "from": "obj_69a9012",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_99cba94",
+      "from": "obj_b0c6544",
+      "to": "obj_993b866",
+      "rolle": {
+        "de": "kommt vor in",
+        "en": "kommt vor in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_3c19f7b",
+      "from": "obj_485f25b",
+      "to": "obj_8caea86",
+      "rolle": {
+        "de": "ist verlobt mit, später Ehemann von",
+        "en": "ist verlobt mit, später Ehemann von"
+      },
+      "kontakt": {
+        "de": "Beziehung entwickelt sich im Lauf der Handlung zur Ehe (am Ende der Geschichte bereits verheiratet)",
+        "en": "Beziehung entwickelt sich im Lauf der Handlung zur Ehe (am Ende der Geschichte bereits verheiratet)"
+      }
+    },
+    {
+      "id": "edge_55c3e28",
+      "from": "obj_8caea86",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "ist Tochter von",
+        "en": "ist Tochter von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a67af62",
+      "from": "obj_8caea86",
+      "to": "obj_4810ef8",
+      "rolle": {
+        "de": "ist Tochter von",
+        "en": "ist Tochter von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_72ada6b",
+      "from": "obj_b9d5e38",
+      "to": "obj_4810ef8",
+      "rolle": {
+        "de": "ist verheiratet mit",
+        "en": "ist verheiratet mit"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d01864d",
+      "from": "obj_485f25b",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "wird Schwiegersohn von",
+        "en": "wird Schwiegersohn von"
+      },
+      "kontakt": {
+        "de": "Nach der Heirat mit Sue",
+        "en": "Nach der Heirat mit Sue"
+      }
+    },
+    {
+      "id": "edge_3aec497",
+      "from": "obj_485f25b",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "arbeitet zusammen mit (Kampf gegen die Monster)",
+        "en": "arbeitet zusammen mit (Kampf gegen die Monster)"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_175cf7b",
+      "from": "obj_45f720a",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "ist Hausangestellter (Butler) von",
+        "en": "ist Hausangestellter (Butler) von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_d2f9b5f",
+      "from": "obj_9e9183a",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "ist Angestellte (Köchin) von",
+        "en": "ist Angestellte (Köchin) von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_796dedf",
+      "from": "obj_71ff5a3",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "ist Landarbeiter/Vorarbeiter von",
+        "en": "ist Landarbeiter/Vorarbeiter von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_e9582a2",
+      "from": "obj_4596072",
+      "to": "obj_b9d5e38",
+      "rolle": {
+        "de": "ist Landarbeiter von",
+        "en": "ist Landarbeiter von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_4db43a2",
+      "from": "obj_485f25b",
+      "to": "obj_71ff5a3",
+      "rolle": {
+        "de": "arbeitet zusammen mit (gemeinsame Fahrt zum Flugplatz im \"Panzer\")",
+        "en": "arbeitet zusammen mit (gemeinsame Fahrt zum Flugplatz im \"Panzer\")"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_4110718",
+      "from": "obj_7472d93",
+      "to": "obj_0c37b83",
+      "rolle": {
+        "de": "wird abgestellt/befehligt von",
+        "en": "wird abgestellt/befehligt von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_9a00e78",
+      "from": "obj_7472d93",
+      "to": "obj_485f25b",
+      "rolle": {
+        "de": "unterstützt",
+        "en": "unterstützt"
+      },
+      "kontakt": {
+        "de": "Begleitet Dick und Smith bei der Verteidigung des Hauses gegen die Riesenqualle",
+        "en": "Begleitet Dick und Smith bei der Verteidigung des Hauses gegen die Riesenqualle"
+      }
+    },
+    {
+      "id": "edge_f9776ae",
+      "from": "obj_7472d93",
+      "to": "obj_71ff5a3",
+      "rolle": {
+        "de": "unterstützt",
+        "en": "unterstützt"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_fb8522b",
+      "from": "obj_485f25b",
+      "to": "obj_0c37b83",
+      "rolle": {
+        "de": "erhält Waffen/Munition von",
+        "en": "erhält Waffen/Munition von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_f250488",
+      "from": "obj_e2d732c",
+      "to": "obj_aec6cc6",
+      "rolle": {
+        "de": "wird vermutlich vom selben Wesen getötet wie",
+        "en": "wird vermutlich vom selben Wesen getötet wie"
+      },
+      "kontakt": {
+        "de": "Beide verschwinden spurlos am selben Tag unter identischen Umständen",
+        "en": "Beide verschwinden spurlos am selben Tag unter identischen Umständen"
+      }
+    },
+    {
+      "id": "edge_7157842",
+      "from": "obj_69a9012",
+      "to": "obj_e2d732c",
+      "rolle": {
+        "de": "wird durch herabfallende Überreste von ... verletzt",
+        "en": "wird durch herabfallende Überreste von ... verletzt"
+      },
+      "kontakt": {
+        "de": "Ein vermutlich von Jacksons Skelett stammender Schädel fällt vom Himmel und trifft Aldrich",
+        "en": "Ein vermutlich von Jacksons Skelett stammender Schädel fällt vom Himmel und trifft Aldrich"
+      }
+    },
+    {
+      "id": "edge_a987c5a",
+      "from": "obj_b0c6544",
+      "to": "obj_69a9012",
+      "rolle": {
+        "de": "untersucht/behandelt",
+        "en": "untersucht/behandelt"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_18e1697",
+      "from": "obj_b0c6544",
+      "to": "obj_e2d732c",
+      "rolle": {
+        "de": "untersucht die (vermutlichen) Überreste von",
+        "en": "untersucht die (vermutlichen) Überreste von"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    }
+  ],
+  "exportedAt": 0
+}
