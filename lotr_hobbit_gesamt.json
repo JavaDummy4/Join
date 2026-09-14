@@ -1,0 +1,3725 @@
+{
+  "format": "objekt-beziehungsmodell-v1",
+  "name": "Der Herr der Ringe & Der Hobbit - Filme, Personen und Schauspieler",
+  "nodes": [
+    {
+      "id": "obj_f000001",
+      "class": "neutral",
+      "name": "Der Herr der Ringe: Die Gefährten des Rings",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1865,
+        "y": 3611
+      },
+      "pos3d": {
+        "x": -1865,
+        "y": 3611,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f000002",
+      "class": "neutral",
+      "name": "Der Herr der Ringe: Die zwei Türme",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1201,
+        "y": 4106
+      },
+      "pos3d": {
+        "x": -1201,
+        "y": 4106,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f000003",
+      "class": "neutral",
+      "name": "Der Herr der Ringe: Die Rückkehr des Königs",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -414,
+        "y": 4367
+      },
+      "pos3d": {
+        "x": -414,
+        "y": 4367,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f000004",
+      "class": "neutral",
+      "name": "Der Hobbit: Eine unerwartete Reise",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 414,
+        "y": 4367
+      },
+      "pos3d": {
+        "x": 414,
+        "y": 4367,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f000005",
+      "class": "neutral",
+      "name": "Der Hobbit: Smaugs Einöde",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1201,
+        "y": 4106
+      },
+      "pos3d": {
+        "x": 1201,
+        "y": 4106,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_f000006",
+      "class": "neutral",
+      "name": "Der Hobbit: Die Schlacht der Fünf Heere",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1865,
+        "y": 3611
+      },
+      "pos3d": {
+        "x": 1865,
+        "y": 3611,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000001",
+      "class": "neutral",
+      "name": "Frodo Beutlin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1100,
+        "y": 0
+      },
+      "pos3d": {
+        "x": 1100,
+        "y": 0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00101",
+      "class": "neutral",
+      "name": "Elijah Wood",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1700,
+        "y": 0
+      },
+      "pos3d": {
+        "x": 1700,
+        "y": 0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000002",
+      "class": "neutral",
+      "name": "Samweis Gamdschie",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1081,
+        "y": 202
+      },
+      "pos3d": {
+        "x": 1081,
+        "y": 202,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00201",
+      "class": "neutral",
+      "name": "Sean Astin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1671,
+        "y": 312
+      },
+      "pos3d": {
+        "x": 1671,
+        "y": 312,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000003",
+      "class": "neutral",
+      "name": "Gandalf",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1026,
+        "y": 397
+      },
+      "pos3d": {
+        "x": 1026,
+        "y": 397,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00301",
+      "class": "neutral",
+      "name": "Ian McKellen",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1585,
+        "y": 614
+      },
+      "pos3d": {
+        "x": 1585,
+        "y": 614,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000004",
+      "class": "neutral",
+      "name": "Aragorn",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 935,
+        "y": 579
+      },
+      "pos3d": {
+        "x": 935,
+        "y": 579,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00401",
+      "class": "neutral",
+      "name": "Viggo Mortensen",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1445,
+        "y": 895
+      },
+      "pos3d": {
+        "x": 1445,
+        "y": 895,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000005",
+      "class": "neutral",
+      "name": "Legolas",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 813,
+        "y": 741
+      },
+      "pos3d": {
+        "x": 813,
+        "y": 741,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00501",
+      "class": "neutral",
+      "name": "Orlando Bloom",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1256,
+        "y": 1145
+      },
+      "pos3d": {
+        "x": 1256,
+        "y": 1145,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000006",
+      "class": "neutral",
+      "name": "Gimli",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 663,
+        "y": 878
+      },
+      "pos3d": {
+        "x": 663,
+        "y": 878,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00601",
+      "class": "neutral",
+      "name": "John Rhys-Davies",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1024,
+        "y": 1357
+      },
+      "pos3d": {
+        "x": 1024,
+        "y": 1357,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000007",
+      "class": "neutral",
+      "name": "Boromir",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 490,
+        "y": 985
+      },
+      "pos3d": {
+        "x": 490,
+        "y": 985,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00701",
+      "class": "neutral",
+      "name": "Sean Bean",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 758,
+        "y": 1522
+      },
+      "pos3d": {
+        "x": 758,
+        "y": 1522,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000008",
+      "class": "neutral",
+      "name": "Meriadoc Brandybock",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 301,
+        "y": 1058
+      },
+      "pos3d": {
+        "x": 301,
+        "y": 1058,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00801",
+      "class": "neutral",
+      "name": "Dominic Monaghan",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 465,
+        "y": 1635
+      },
+      "pos3d": {
+        "x": 465,
+        "y": 1635,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000009",
+      "class": "neutral",
+      "name": "Peregrin Tuk",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 101,
+        "y": 1095
+      },
+      "pos3d": {
+        "x": 101,
+        "y": 1095,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a00901",
+      "class": "neutral",
+      "name": "Billy Boyd",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 157,
+        "y": 1693
+      },
+      "pos3d": {
+        "x": 157,
+        "y": 1693,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000010",
+      "class": "neutral",
+      "name": "Bilbo Beutlin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -101,
+        "y": 1095
+      },
+      "pos3d": {
+        "x": -101,
+        "y": 1095,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01001",
+      "class": "neutral",
+      "name": "Ian Holm",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -157,
+        "y": 1693
+      },
+      "pos3d": {
+        "x": -157,
+        "y": 1693,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01002",
+      "class": "neutral",
+      "name": "Martin Freeman",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -77,
+        "y": 1773
+      },
+      "pos3d": {
+        "x": -77,
+        "y": 1773,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000011",
+      "class": "neutral",
+      "name": "Elrond",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -301,
+        "y": 1058
+      },
+      "pos3d": {
+        "x": -301,
+        "y": 1058,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01101",
+      "class": "neutral",
+      "name": "Hugo Weaving",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -465,
+        "y": 1635
+      },
+      "pos3d": {
+        "x": -465,
+        "y": 1635,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000012",
+      "class": "neutral",
+      "name": "Galadriel",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -490,
+        "y": 985
+      },
+      "pos3d": {
+        "x": -490,
+        "y": 985,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01201",
+      "class": "neutral",
+      "name": "Cate Blanchett",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -758,
+        "y": 1522
+      },
+      "pos3d": {
+        "x": -758,
+        "y": 1522,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000013",
+      "class": "neutral",
+      "name": "Saruman",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -663,
+        "y": 878
+      },
+      "pos3d": {
+        "x": -663,
+        "y": 878,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01301",
+      "class": "neutral",
+      "name": "Christopher Lee",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1024,
+        "y": 1357
+      },
+      "pos3d": {
+        "x": -1024,
+        "y": 1357,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000014",
+      "class": "neutral",
+      "name": "Sauron",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -813,
+        "y": 741
+      },
+      "pos3d": {
+        "x": -813,
+        "y": 741,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01401",
+      "class": "neutral",
+      "name": "Sala Baker",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1256,
+        "y": 1145
+      },
+      "pos3d": {
+        "x": -1256,
+        "y": 1145,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000015",
+      "class": "neutral",
+      "name": "Gollum",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -935,
+        "y": 579
+      },
+      "pos3d": {
+        "x": -935,
+        "y": 579,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01501",
+      "class": "neutral",
+      "name": "Andy Serkis",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1445,
+        "y": 895
+      },
+      "pos3d": {
+        "x": -1445,
+        "y": 895,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000016",
+      "class": "neutral",
+      "name": "Thorin Eichenschild",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1026,
+        "y": 397
+      },
+      "pos3d": {
+        "x": -1026,
+        "y": 397,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01601",
+      "class": "neutral",
+      "name": "Richard Armitage",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1585,
+        "y": 614
+      },
+      "pos3d": {
+        "x": -1585,
+        "y": 614,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000017",
+      "class": "neutral",
+      "name": "Balin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1081,
+        "y": 202
+      },
+      "pos3d": {
+        "x": -1081,
+        "y": 202,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01701",
+      "class": "neutral",
+      "name": "Ken Stott",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1671,
+        "y": 312
+      },
+      "pos3d": {
+        "x": -1671,
+        "y": 312,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000018",
+      "class": "neutral",
+      "name": "Dwalin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1100,
+        "y": 0
+      },
+      "pos3d": {
+        "x": -1100,
+        "y": 0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01801",
+      "class": "neutral",
+      "name": "Graham McTavish",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1700,
+        "y": 0
+      },
+      "pos3d": {
+        "x": -1700,
+        "y": 0,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000019",
+      "class": "neutral",
+      "name": "Fili",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1081,
+        "y": -202
+      },
+      "pos3d": {
+        "x": -1081,
+        "y": -202,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a01901",
+      "class": "neutral",
+      "name": "Dean O'Gorman",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1671,
+        "y": -312
+      },
+      "pos3d": {
+        "x": -1671,
+        "y": -312,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000020",
+      "class": "neutral",
+      "name": "Kili",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1026,
+        "y": -397
+      },
+      "pos3d": {
+        "x": -1026,
+        "y": -397,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02001",
+      "class": "neutral",
+      "name": "Aidan Turner",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1585,
+        "y": -614
+      },
+      "pos3d": {
+        "x": -1585,
+        "y": -614,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000021",
+      "class": "neutral",
+      "name": "Bombur",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -935,
+        "y": -579
+      },
+      "pos3d": {
+        "x": -935,
+        "y": -579,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02101",
+      "class": "neutral",
+      "name": "Stephen Hunter",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1445,
+        "y": -895
+      },
+      "pos3d": {
+        "x": -1445,
+        "y": -895,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000022",
+      "class": "neutral",
+      "name": "Bofur",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -813,
+        "y": -741
+      },
+      "pos3d": {
+        "x": -813,
+        "y": -741,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02201",
+      "class": "neutral",
+      "name": "James Nesbitt",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1256,
+        "y": -1145
+      },
+      "pos3d": {
+        "x": -1256,
+        "y": -1145,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000023",
+      "class": "neutral",
+      "name": "Bifur",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -663,
+        "y": -878
+      },
+      "pos3d": {
+        "x": -663,
+        "y": -878,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02301",
+      "class": "neutral",
+      "name": "William Kircher",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -1024,
+        "y": -1357
+      },
+      "pos3d": {
+        "x": -1024,
+        "y": -1357,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000024",
+      "class": "neutral",
+      "name": "Oin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -490,
+        "y": -985
+      },
+      "pos3d": {
+        "x": -490,
+        "y": -985,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02401",
+      "class": "neutral",
+      "name": "John Callen",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -758,
+        "y": -1522
+      },
+      "pos3d": {
+        "x": -758,
+        "y": -1522,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000025",
+      "class": "neutral",
+      "name": "Gloin",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -301,
+        "y": -1058
+      },
+      "pos3d": {
+        "x": -301,
+        "y": -1058,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02501",
+      "class": "neutral",
+      "name": "Peter Hambleton",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -465,
+        "y": -1635
+      },
+      "pos3d": {
+        "x": -465,
+        "y": -1635,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000026",
+      "class": "neutral",
+      "name": "Ori",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -101,
+        "y": -1095
+      },
+      "pos3d": {
+        "x": -101,
+        "y": -1095,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02601",
+      "class": "neutral",
+      "name": "Adam Brown",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": -157,
+        "y": -1693
+      },
+      "pos3d": {
+        "x": -157,
+        "y": -1693,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000027",
+      "class": "neutral",
+      "name": "Nori",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 101,
+        "y": -1095
+      },
+      "pos3d": {
+        "x": 101,
+        "y": -1095,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02701",
+      "class": "neutral",
+      "name": "Jed Brophy",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 157,
+        "y": -1693
+      },
+      "pos3d": {
+        "x": 157,
+        "y": -1693,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000028",
+      "class": "neutral",
+      "name": "Dori",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 301,
+        "y": -1058
+      },
+      "pos3d": {
+        "x": 301,
+        "y": -1058,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02801",
+      "class": "neutral",
+      "name": "Mark Hadlow",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 465,
+        "y": -1635
+      },
+      "pos3d": {
+        "x": 465,
+        "y": -1635,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000029",
+      "class": "neutral",
+      "name": "Smaug",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 490,
+        "y": -985
+      },
+      "pos3d": {
+        "x": 490,
+        "y": -985,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a02901",
+      "class": "neutral",
+      "name": "Benedict Cumberbatch",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 758,
+        "y": -1522
+      },
+      "pos3d": {
+        "x": 758,
+        "y": -1522,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000030",
+      "class": "neutral",
+      "name": "Thranduil",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 663,
+        "y": -878
+      },
+      "pos3d": {
+        "x": 663,
+        "y": -878,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a03001",
+      "class": "neutral",
+      "name": "Lee Pace",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1024,
+        "y": -1357
+      },
+      "pos3d": {
+        "x": 1024,
+        "y": -1357,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000031",
+      "class": "neutral",
+      "name": "Tauriel",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 813,
+        "y": -741
+      },
+      "pos3d": {
+        "x": 813,
+        "y": -741,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a03101",
+      "class": "neutral",
+      "name": "Evangeline Lilly",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1256,
+        "y": -1145
+      },
+      "pos3d": {
+        "x": 1256,
+        "y": -1145,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000032",
+      "class": "neutral",
+      "name": "Bard der Bogenschütze",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 935,
+        "y": -579
+      },
+      "pos3d": {
+        "x": 935,
+        "y": -579,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a03201",
+      "class": "neutral",
+      "name": "Luke Evans",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1445,
+        "y": -895
+      },
+      "pos3d": {
+        "x": 1445,
+        "y": -895,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000033",
+      "class": "neutral",
+      "name": "Azog",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1026,
+        "y": -397
+      },
+      "pos3d": {
+        "x": 1026,
+        "y": -397,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a03301",
+      "class": "neutral",
+      "name": "Manu Bennett",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1585,
+        "y": -614
+      },
+      "pos3d": {
+        "x": 1585,
+        "y": -614,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_c000034",
+      "class": "neutral",
+      "name": "Radagast",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1081,
+        "y": -202
+      },
+      "pos3d": {
+        "x": 1081,
+        "y": -202,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    },
+    {
+      "id": "obj_a03401",
+      "class": "neutral",
+      "name": "Sylvester McCoy",
+      "params": {},
+      "group": "A",
+      "pos2d": {
+        "x": 1671,
+        "y": -312
+      },
+      "pos3d": {
+        "x": 1671,
+        "y": -312,
+        "z": 0
+      },
+      "pinned2d": false,
+      "pinned3d": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_a00101",
+      "from": "obj_a00101",
+      "to": "obj_c000001",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c001f01",
+      "from": "obj_c000001",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c001f02",
+      "from": "obj_c000001",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c001f03",
+      "from": "obj_c000001",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00201",
+      "from": "obj_a00201",
+      "to": "obj_c000002",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c002f01",
+      "from": "obj_c000002",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c002f02",
+      "from": "obj_c000002",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c002f03",
+      "from": "obj_c000002",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00301",
+      "from": "obj_a00301",
+      "to": "obj_c000003",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c003f01",
+      "from": "obj_c000003",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c003f02",
+      "from": "obj_c000003",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c003f03",
+      "from": "obj_c000003",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c003f04",
+      "from": "obj_c000003",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c003f05",
+      "from": "obj_c000003",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c003f06",
+      "from": "obj_c000003",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00401",
+      "from": "obj_a00401",
+      "to": "obj_c000004",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c004f01",
+      "from": "obj_c000004",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c004f02",
+      "from": "obj_c000004",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c004f03",
+      "from": "obj_c000004",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00501",
+      "from": "obj_a00501",
+      "to": "obj_c000005",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c005f01",
+      "from": "obj_c000005",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c005f02",
+      "from": "obj_c000005",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c005f03",
+      "from": "obj_c000005",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c005f05",
+      "from": "obj_c000005",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c005f06",
+      "from": "obj_c000005",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00601",
+      "from": "obj_a00601",
+      "to": "obj_c000006",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c006f01",
+      "from": "obj_c000006",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c006f02",
+      "from": "obj_c000006",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c006f03",
+      "from": "obj_c000006",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00701",
+      "from": "obj_a00701",
+      "to": "obj_c000007",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c007f01",
+      "from": "obj_c000007",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00801",
+      "from": "obj_a00801",
+      "to": "obj_c000008",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c008f01",
+      "from": "obj_c000008",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c008f02",
+      "from": "obj_c000008",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c008f03",
+      "from": "obj_c000008",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a00901",
+      "from": "obj_a00901",
+      "to": "obj_c000009",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c009f01",
+      "from": "obj_c000009",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c009f02",
+      "from": "obj_c000009",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c009f03",
+      "from": "obj_c000009",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01001",
+      "from": "obj_a01001",
+      "to": "obj_c000010",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "im hohen Alter",
+        "en": "as an old hobbit"
+      }
+    },
+    {
+      "id": "edge_a01002",
+      "from": "obj_a01002",
+      "to": "obj_c000010",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "in jungen Jahren",
+        "en": "as a young hobbit"
+      }
+    },
+    {
+      "id": "edge_c010f01",
+      "from": "obj_c000010",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c010f03",
+      "from": "obj_c000010",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c010f04",
+      "from": "obj_c000010",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c010f05",
+      "from": "obj_c000010",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c010f06",
+      "from": "obj_c000010",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01101",
+      "from": "obj_a01101",
+      "to": "obj_c000011",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c011f01",
+      "from": "obj_c000011",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c011f03",
+      "from": "obj_c000011",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c011f04",
+      "from": "obj_c000011",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c011f06",
+      "from": "obj_c000011",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01201",
+      "from": "obj_a01201",
+      "to": "obj_c000012",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c012f01",
+      "from": "obj_c000012",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c012f03",
+      "from": "obj_c000012",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c012f04",
+      "from": "obj_c000012",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c012f06",
+      "from": "obj_c000012",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01301",
+      "from": "obj_a01301",
+      "to": "obj_c000013",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c013f01",
+      "from": "obj_c000013",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c013f02",
+      "from": "obj_c000013",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c013f03",
+      "from": "obj_c000013",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01401",
+      "from": "obj_a01401",
+      "to": "obj_c000014",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "physische Darstellung",
+        "en": "physical performance"
+      }
+    },
+    {
+      "id": "edge_c014f01",
+      "from": "obj_c000014",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c014f02",
+      "from": "obj_c000014",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c014f03",
+      "from": "obj_c000014",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01501",
+      "from": "obj_a01501",
+      "to": "obj_c000015",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c015f01",
+      "from": "obj_c000015",
+      "to": "obj_f000001",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c015f02",
+      "from": "obj_c000015",
+      "to": "obj_f000002",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c015f03",
+      "from": "obj_c000015",
+      "to": "obj_f000003",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c015f04",
+      "from": "obj_c000015",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01601",
+      "from": "obj_a01601",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c016f04",
+      "from": "obj_c000016",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c016f05",
+      "from": "obj_c000016",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c016f06",
+      "from": "obj_c000016",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01701",
+      "from": "obj_a01701",
+      "to": "obj_c000017",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c017f04",
+      "from": "obj_c000017",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c017f05",
+      "from": "obj_c000017",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c017f06",
+      "from": "obj_c000017",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01801",
+      "from": "obj_a01801",
+      "to": "obj_c000018",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c018f04",
+      "from": "obj_c000018",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c018f05",
+      "from": "obj_c000018",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c018f06",
+      "from": "obj_c000018",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a01901",
+      "from": "obj_a01901",
+      "to": "obj_c000019",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c019f04",
+      "from": "obj_c000019",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c019f05",
+      "from": "obj_c000019",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c019f06",
+      "from": "obj_c000019",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02001",
+      "from": "obj_a02001",
+      "to": "obj_c000020",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c020f04",
+      "from": "obj_c000020",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c020f05",
+      "from": "obj_c000020",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c020f06",
+      "from": "obj_c000020",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02101",
+      "from": "obj_a02101",
+      "to": "obj_c000021",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c021f04",
+      "from": "obj_c000021",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c021f05",
+      "from": "obj_c000021",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c021f06",
+      "from": "obj_c000021",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02201",
+      "from": "obj_a02201",
+      "to": "obj_c000022",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c022f04",
+      "from": "obj_c000022",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c022f05",
+      "from": "obj_c000022",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c022f06",
+      "from": "obj_c000022",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02301",
+      "from": "obj_a02301",
+      "to": "obj_c000023",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c023f04",
+      "from": "obj_c000023",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c023f05",
+      "from": "obj_c000023",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c023f06",
+      "from": "obj_c000023",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02401",
+      "from": "obj_a02401",
+      "to": "obj_c000024",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c024f04",
+      "from": "obj_c000024",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c024f05",
+      "from": "obj_c000024",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c024f06",
+      "from": "obj_c000024",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02501",
+      "from": "obj_a02501",
+      "to": "obj_c000025",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c025f04",
+      "from": "obj_c000025",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c025f05",
+      "from": "obj_c000025",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c025f06",
+      "from": "obj_c000025",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02601",
+      "from": "obj_a02601",
+      "to": "obj_c000026",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c026f04",
+      "from": "obj_c000026",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c026f05",
+      "from": "obj_c000026",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c026f06",
+      "from": "obj_c000026",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02701",
+      "from": "obj_a02701",
+      "to": "obj_c000027",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c027f04",
+      "from": "obj_c000027",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c027f05",
+      "from": "obj_c000027",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c027f06",
+      "from": "obj_c000027",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02801",
+      "from": "obj_a02801",
+      "to": "obj_c000028",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c028f04",
+      "from": "obj_c000028",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c028f05",
+      "from": "obj_c000028",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c028f06",
+      "from": "obj_c000028",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a02901",
+      "from": "obj_a02901",
+      "to": "obj_c000029",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "Stimme und Motion Capture",
+        "en": "voice and motion capture"
+      }
+    },
+    {
+      "id": "edge_c029f05",
+      "from": "obj_c000029",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c029f06",
+      "from": "obj_c000029",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a03001",
+      "from": "obj_a03001",
+      "to": "obj_c000030",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c030f05",
+      "from": "obj_c000030",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c030f06",
+      "from": "obj_c000030",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a03101",
+      "from": "obj_a03101",
+      "to": "obj_c000031",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c031f05",
+      "from": "obj_c000031",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c031f06",
+      "from": "obj_c000031",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a03201",
+      "from": "obj_a03201",
+      "to": "obj_c000032",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c032f05",
+      "from": "obj_c000032",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c032f06",
+      "from": "obj_c000032",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a03301",
+      "from": "obj_a03301",
+      "to": "obj_c000033",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c033f04",
+      "from": "obj_c000033",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c033f05",
+      "from": "obj_c000033",
+      "to": "obj_f000005",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c033f06",
+      "from": "obj_c000033",
+      "to": "obj_f000006",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_a03401",
+      "from": "obj_a03401",
+      "to": "obj_c000034",
+      "rolle": {
+        "de": "spielt die Rolle von",
+        "en": "plays the role of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_c034f04",
+      "from": "obj_c000034",
+      "to": "obj_f000004",
+      "rolle": {
+        "de": "tritt auf in",
+        "en": "appears in"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0001",
+      "from": "obj_c000001",
+      "to": "obj_c000010",
+      "rolle": {
+        "de": "ist Neffe von",
+        "en": "is nephew of"
+      },
+      "kontakt": {
+        "de": "Frodo erbt den Ring von Bilbo",
+        "en": "Frodo inherits the Ring from Bilbo"
+      }
+    },
+    {
+      "id": "edge_r0002",
+      "from": "obj_c000001",
+      "to": "obj_c000002",
+      "rolle": {
+        "de": "ist bester Freund und Gefährte von",
+        "en": "is best friend and companion of"
+      },
+      "kontakt": {
+        "de": "Sam begleitet Frodo bis nach Mordor",
+        "en": "Sam accompanies Frodo all the way to Mordor"
+      }
+    },
+    {
+      "id": "edge_r0003",
+      "from": "obj_c000003",
+      "to": "obj_c000001",
+      "rolle": {
+        "de": "ist Berater und Beschützer von",
+        "en": "is advisor and protector of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0004",
+      "from": "obj_c000001",
+      "to": "obj_c000004",
+      "rolle": {
+        "de": "ist Mitglied der Gefährten des Rings mit",
+        "en": "is a member of the Fellowship of the Ring with"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0005",
+      "from": "obj_c000001",
+      "to": "obj_c000005",
+      "rolle": {
+        "de": "ist Mitglied der Gefährten des Rings mit",
+        "en": "is a member of the Fellowship of the Ring with"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0006",
+      "from": "obj_c000001",
+      "to": "obj_c000006",
+      "rolle": {
+        "de": "ist Mitglied der Gefährten des Rings mit",
+        "en": "is a member of the Fellowship of the Ring with"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0007",
+      "from": "obj_c000001",
+      "to": "obj_c000007",
+      "rolle": {
+        "de": "ist Mitglied der Gefährten des Rings mit",
+        "en": "is a member of the Fellowship of the Ring with"
+      },
+      "kontakt": {
+        "de": "Boromir versucht, Frodo den Ring abzunehmen",
+        "en": "Boromir attempts to take the Ring from Frodo"
+      }
+    },
+    {
+      "id": "edge_r0008",
+      "from": "obj_c000001",
+      "to": "obj_c000008",
+      "rolle": {
+        "de": "ist Cousin und Gefährte von",
+        "en": "is cousin and companion of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0009",
+      "from": "obj_c000001",
+      "to": "obj_c000009",
+      "rolle": {
+        "de": "ist Cousin und Gefährte von",
+        "en": "is cousin and companion of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0010",
+      "from": "obj_c000004",
+      "to": "obj_c000005",
+      "rolle": {
+        "de": "kämpft an der Seite von",
+        "en": "fights alongside"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0011",
+      "from": "obj_c000004",
+      "to": "obj_c000006",
+      "rolle": {
+        "de": "kämpft an der Seite von",
+        "en": "fights alongside"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0012",
+      "from": "obj_c000011",
+      "to": "obj_c000004",
+      "rolle": {
+        "de": "ist Ziehvater von",
+        "en": "is foster father of"
+      },
+      "kontakt": {
+        "de": "Elrond zieht Aragorn in Bruchtal auf",
+        "en": "Elrond raises Aragorn in Rivendell"
+      }
+    },
+    {
+      "id": "edge_r0013",
+      "from": "obj_c000010",
+      "to": "obj_c000011",
+      "rolle": {
+        "de": "verbringt seinen Lebensabend bei",
+        "en": "spends his later years with"
+      },
+      "kontakt": {
+        "de": "Bilbo lebt in Bruchtal",
+        "en": "Bilbo lives in Rivendell"
+      }
+    },
+    {
+      "id": "edge_r0014",
+      "from": "obj_c000003",
+      "to": "obj_c000013",
+      "rolle": {
+        "de": "ist ehemaliger Verbündeter und späterer Gegner von",
+        "en": "is former ally and later adversary of"
+      },
+      "kontakt": {
+        "de": "Saruman wechselt zur Seite Saurons",
+        "en": "Saruman turns to Sauron's side"
+      }
+    },
+    {
+      "id": "edge_r0015",
+      "from": "obj_c000013",
+      "to": "obj_c000014",
+      "rolle": {
+        "de": "verbündet sich mit",
+        "en": "allies with"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0016",
+      "from": "obj_c000012",
+      "to": "obj_c000001",
+      "rolle": {
+        "de": "unterstützt und beschenkt",
+        "en": "supports and gifts"
+      },
+      "kontakt": {
+        "de": "Galadriel gibt Frodo das Phiolenlicht",
+        "en": "Galadriel gives Frodo the phial of light"
+      }
+    },
+    {
+      "id": "edge_r0017",
+      "from": "obj_c000015",
+      "to": "obj_c000001",
+      "rolle": {
+        "de": "führt nach Mordor",
+        "en": "guides to Mordor"
+      },
+      "kontakt": {
+        "de": "Gollum leitet Frodo und Sam durch Mordor",
+        "en": "Gollum leads Frodo and Sam through Mordor"
+      }
+    },
+    {
+      "id": "edge_r0018",
+      "from": "obj_c000014",
+      "to": "obj_c000015",
+      "rolle": {
+        "de": "verfolgt und quält",
+        "en": "hunts and torments"
+      },
+      "kontakt": {
+        "de": "Sauron lässt nach dem Ring suchen",
+        "en": "Sauron has the Ring hunted for"
+      }
+    },
+    {
+      "id": "edge_r0019",
+      "from": "obj_c000015",
+      "to": "obj_c000010",
+      "rolle": {
+        "de": "war ehemaliger Ringträger vor",
+        "en": "was former Ring-bearer before"
+      },
+      "kontakt": {
+        "de": "Bilbo findet den Ring, den Gollum zuvor besaß",
+        "en": "Bilbo finds the Ring previously owned by Gollum"
+      }
+    },
+    {
+      "id": "edge_r0020",
+      "from": "obj_c000003",
+      "to": "obj_c000010",
+      "rolle": {
+        "de": "rekrutiert für das Abenteuer",
+        "en": "recruits for the adventure"
+      },
+      "kontakt": {
+        "de": "Gandalf schlägt Bilbo als 'Meisterdieb' vor",
+        "en": "Gandalf proposes Bilbo as 'master burglar'"
+      }
+    },
+    {
+      "id": "edge_r0021",
+      "from": "obj_c000016",
+      "to": "obj_c000010",
+      "rolle": {
+        "de": "engagiert als Meisterdieb",
+        "en": "hires as master burglar"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0022",
+      "from": "obj_c000003",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "berät und unterstützt",
+        "en": "advises and supports"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0023",
+      "from": "obj_c000017",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist treuer Berater von",
+        "en": "is loyal advisor of"
+      },
+      "kontakt": {
+        "de": "Balin diente bereits Thorins Großvater",
+        "en": "Balin already served Thorin's grandfather"
+      }
+    },
+    {
+      "id": "edge_r0024",
+      "from": "obj_c000018",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist treuer Kämpfer von",
+        "en": "is loyal warrior of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0025",
+      "from": "obj_c000019",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Neffe von",
+        "en": "is nephew of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0026",
+      "from": "obj_c000020",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Neffe von",
+        "en": "is nephew of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0027",
+      "from": "obj_c000019",
+      "to": "obj_c000020",
+      "rolle": {
+        "de": "ist Bruder von",
+        "en": "is brother of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0028",
+      "from": "obj_c000021",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0029",
+      "from": "obj_c000022",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0030",
+      "from": "obj_c000023",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0031",
+      "from": "obj_c000024",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0032",
+      "from": "obj_c000025",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0033",
+      "from": "obj_c000026",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0034",
+      "from": "obj_c000027",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0035",
+      "from": "obj_c000028",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Mitglied der Kompanie unter der Führung von",
+        "en": "is a member of the company led by"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0036",
+      "from": "obj_c000029",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "vertreibt aus dem Königreich",
+        "en": "drives from the kingdom"
+      },
+      "kontakt": {
+        "de": "Smaug erobert einst Erebor und Thorins Heimat",
+        "en": "Smaug once conquered Erebor and Thorin's home"
+      }
+    },
+    {
+      "id": "edge_r0037",
+      "from": "obj_c000032",
+      "to": "obj_c000029",
+      "rolle": {
+        "de": "erlegt",
+        "en": "slays"
+      },
+      "kontakt": {
+        "de": "Bard tötet Smaug mit dem Schwarzen Pfeil",
+        "en": "Bard kills Smaug with the Black Arrow"
+      }
+    },
+    {
+      "id": "edge_r0038",
+      "from": "obj_c000030",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "nimmt gefangen",
+        "en": "takes captive"
+      },
+      "kontakt": {
+        "de": "Thranduil lässt die Kompanie in Düsterwald inhaftieren",
+        "en": "Thranduil has the company imprisoned in Mirkwood"
+      }
+    },
+    {
+      "id": "edge_r0039",
+      "from": "obj_c000005",
+      "to": "obj_c000030",
+      "rolle": {
+        "de": "ist Sohn von",
+        "en": "is son of"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0040",
+      "from": "obj_c000031",
+      "to": "obj_c000020",
+      "rolle": {
+        "de": "verliebt sich in",
+        "en": "falls in love with"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0041",
+      "from": "obj_c000033",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "ist Erzfeind von",
+        "en": "is arch-enemy of"
+      },
+      "kontakt": {
+        "de": "Azog tötete Thorins Großvater und verfolgt die Kompanie",
+        "en": "Azog killed Thorin's grandfather and hunts the company"
+      }
+    },
+    {
+      "id": "edge_r0042",
+      "from": "obj_c000034",
+      "to": "obj_c000003",
+      "rolle": {
+        "de": "warnt vor dem Nekromanten und informiert",
+        "en": "warns about the Necromancer and informs"
+      },
+      "kontakt": {
+        "de": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "edge_r0043",
+      "from": "obj_c000011",
+      "to": "obj_c000016",
+      "rolle": {
+        "de": "deutet die Mondrunen der Karte für",
+        "en": "deciphers the moon runes on the map for"
+      },
+      "kontakt": {
+        "de": "Elrond hilft der Kompanie in Bruchtal",
+        "en": "Elrond helps the company in Rivendell"
+      }
+    }
+  ],
+  "exportedAt": 0
+}
