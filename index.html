@@ -241,12 +241,17 @@
   #modalRoot{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(10,12,15,.55);z-index:50;}
   #modalRoot.open{display:flex;}
   .modal{background:#fff;border-radius:10px;padding:20px;width:380px;max-width:90vw;max-height:80vh;overflow-y:auto;}
+  .modal.modal-wide{width:560px;}
   .modal h3{margin:0 0 12px;font-size:16px;}
   .modal-list{list-style:none;margin:0;padding:0;}
   .modal-list li{padding:10px;border:1px solid var(--line);border-radius:6px;margin-bottom:6px;cursor:pointer;font-size:13px;display:flex;justify-content:space-between;}
   .modal-list li:hover{border-color:var(--accent);background:#f2fbfa;}
   .modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:14px;}
   .modal input[type=text]{width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;font-family:'IBM Plex Mono',monospace;font-size:13px;}
+  .help-body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,sans-serif;}
+  .help-body h4{margin:16px 0 4px;font-size:13.5px;font-weight:700;color:#0071e3;}
+  .help-body h4:first-child{margin-top:0;}
+  .help-body p{margin:0 0 4px;font-size:13px;line-height:1.55;color:var(--ink);}
 
   #toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#1a2028;color:#fff;padding:10px 16px;border-radius:8px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .25s;z-index:60;}
   #toast.show{opacity:1;}
@@ -305,6 +310,7 @@
     <div class="grp" id="langGrp">
       <button class="btn lang-flag active" id="btnLangDe" title="Deutsch">🇩🇪 DE</button>
       <button class="btn lang-flag" id="btnLangEn" title="English">🇬🇧 EN</button>
+      <button class="btn" id="btnHelp" title="Hilfe / Help">?</button>
     </div>
   </div>
   <div id="searchResults" class="search-results"></div>
@@ -700,6 +706,10 @@ const UI = {
   newModel:      { de:"Neues Modell", en:"New Model" },
   newObject:     { de:"+ Objekt", en:"+ Object" },
   save:          { de:"Speichern", en:"Save" },
+  remarkFieldLabel: { de:"Bemerkung", en:"Remark" },
+  helpButtonTitle: { de:"Hilfe", en:"Help" },
+  mergeConflictNote: { de:"Beim Fusionieren mit Modell \"{model}\" abweichender Wert –", en:"Differing value when merging with model \"{model}\" –" },
+  mergedObjectsCount: { de:"{n} Objekt(e) beim Fusionieren zusammengeführt (gleicher Name & gleiche Klasse).", en:"{n} object(s) merged while merging (same name & class)." },
   open:          { de:"Öffnen", en:"Open" },
   merge:         { de:"Fusionieren", en:"Merge" },
   couple:        { de:"Koppeln", en:"Couple" },
@@ -801,6 +811,7 @@ let selectedNodeId = null, focusNodeId = null, selectedEdgeId = null;
 let connectMode = false, view3D = false;
 let hopIdx = 5;
 let expandedNodes = new Set();
+let pendingFileMode = "open"; // 'open' | 'merge' | 'couple' -- steuert, was beim Datei-Dialog passiert
 let lastSelectedCluster = "technik";
 let pulseNodeId = null;
 
@@ -1424,9 +1435,14 @@ function renderInspector(){
   // Name (einsprachig, wird nicht übersetzt)
   box.appendChild(fieldRow(t("objectName"), node.name, (val)=>{ node.name=val; renderAll(); }, true));
 
+  // Bemerkung: für jedes Objekt verfügbar, unabhängig von der Klasse -- direkt unter dem Namen
+  node.params["bemerkung"] = node.params["bemerkung"] || {de:"",en:""};
+  box.appendChild(bilingualFieldRow(t("remarkFieldLabel"), node.params, "bemerkung"));
+  box.appendChild(document.createElement("div")).className="divider";
+
   if(node.class==="neutral"){
     const wrap = document.createElement("div");
-    wrap.innerHTML = `<div class="divider"></div><div class="field"><label>${t("assignClass")}</label></div>`;
+    wrap.innerHTML = `<div class="field"><label>${t("assignClass")}</label></div>`;
     box.appendChild(wrap);
 
     // Cluster-Vorauswahl: filtert, welche Gruppen/Klassen im Dropdown erscheinen
@@ -1465,7 +1481,7 @@ function renderInspector(){
   } else {
     const changeBtn = document.createElement("button"); changeBtn.className="link-btn"; changeBtn.textContent=t("resetClass");
     changeBtn.style.marginBottom="10px";
-    changeBtn.addEventListener("click",()=>{ node.class="neutral"; node.params={}; markDirty(); renderInspector(); renderAll(); });
+    changeBtn.addEventListener("click",()=>{ node.class="neutral"; node.params={ bemerkung: node.params.bemerkung || {de:"",en:""} }; markDirty(); renderInspector(); renderAll(); });
     box.appendChild(changeBtn);
     box.appendChild(document.createElement("div")).className="divider";
     cls.fields.forEach(f=>{
@@ -1673,16 +1689,65 @@ async function loadModel(key){
 function remapAndImport(data, sameGroup){
   const idMap = {};
   const newGroup = sameGroup ? (state.nodes[0]?state.nodes[0].group:"A") : uid("grp");
+  let mergedCount = 0;
   data.nodes.forEach(n=>{
-    const newId = uid("obj");
-    idMap[n.id]=newId;
-    state.nodes.push(Object.assign({},n,{id:newId, group:newGroup,
-      pos2d:{x:n.pos2d.x+300,y:n.pos2d.y}, pos3d:{x:n.pos3d.x+300,y:n.pos3d.y,z:n.pos3d.z}, pinned2d:false, pinned3d:false}));
+    let targetNode = null;
+    if(sameGroup){
+      // Objekte mit gleichem Namen UND gleicher Klasse gelten als dasselbe Objekt
+      targetNode = state.nodes.find(existing=>
+        existing.class===n.class && existing.name.trim().toLowerCase()===n.name.trim().toLowerCase()
+      );
+    }
+    if(targetNode){
+      idMap[n.id] = targetNode.id;
+      const cls = CLASSES[targetNode.class];
+      const fieldKeys = new Set([...(cls && cls.fields ? cls.fields.map(f=>f.key) : []), ...Object.keys(n.params||{}), "bemerkung"]);
+      const conflictNotes = [];
+      fieldKeys.forEach(key=>{
+        if(key==="bemerkung") return; // wird separat zusammengeführt
+        const incoming = (n.params||{})[key];
+        const incomingVal = incoming ? (incoming.de || incoming.en || "") : "";
+        if(!incomingVal) return;
+        targetNode.params[key] = targetNode.params[key] || {de:"",en:""};
+        const existingVal = targetNode.params[key].de || targetNode.params[key].en || "";
+        if(!existingVal){
+          targetNode.params[key] = { de: incoming.de || incomingVal, en: incoming.en || incomingVal };
+        } else if(existingVal.trim() !== incomingVal.trim()){
+          const fdef = cls && cls.fields ? cls.fields.find(f=>f.key===key) : null;
+          const label = fdef ? fdef.label : key;
+          conflictNotes.push(`${label}: "${incomingVal}" (übernommen wurde "${existingVal}")`);
+        }
+      });
+      // Bemerkungen beider Objekte sowie ggf. Konflikthinweise zusammenführen
+      const incomingRemark = (n.params||{}).bemerkung ? ((n.params.bemerkung.de || n.params.bemerkung.en || "")) : "";
+      targetNode.params.bemerkung = targetNode.params.bemerkung || {de:"",en:""};
+      const existingRemark = targetNode.params.bemerkung.de || targetNode.params.bemerkung.en || "";
+      const pieces = [existingRemark];
+      if(incomingRemark && incomingRemark.trim() !== existingRemark.trim()) pieces.push(incomingRemark);
+      if(conflictNotes.length) pieces.push(t("mergeConflictNote").replace("{model}", data.name||"") + " " + conflictNotes.join("; "));
+      const combined = pieces.filter(Boolean).join(" | ");
+      targetNode.params.bemerkung = { de: combined, en: combined };
+      mergedCount++;
+    } else {
+      const newId = uid("obj");
+      idMap[n.id]=newId;
+      const paramsCopy = JSON.parse(JSON.stringify(n.params||{}));
+      paramsCopy.bemerkung = paramsCopy.bemerkung || {de:"",en:""};
+      state.nodes.push(Object.assign({},n,{id:newId, group:newGroup, params: paramsCopy,
+        pos2d:{x:n.pos2d.x+300,y:n.pos2d.y}, pos3d:{x:n.pos3d.x+300,y:n.pos3d.y,z:n.pos3d.z}, pinned2d:false, pinned3d:false}));
+    }
   });
   data.edges.forEach(e=>{
-    if(idMap[e.from] && idMap[e.to]) state.edges.push({id:uid("edge"), from:idMap[e.from], to:idMap[e.to], rolle:e.rolle||{de:"",en:""}, kontakt:e.kontakt||{de:"",en:""}});
+    if(idMap[e.from] && idMap[e.to]){
+      const incomingRolle = (e.rolle && e.rolle.de) || "";
+      const alreadyExists = state.edges.some(ex=> ex.from===idMap[e.from] && ex.to===idMap[e.to] && ((ex.rolle&&ex.rolle.de)||"")===incomingRolle );
+      if(!alreadyExists) state.edges.push({id:uid("edge"), from:idMap[e.from], to:idMap[e.to], rolle:e.rolle||{de:"",en:""}, kontakt:e.kontakt||{de:"",en:""}});
+    }
   });
   layout2D(); layout3D(); markDirty(); renderAll();
+  if(sameGroup && mergedCount>0){
+    setTimeout(()=>toast(t("mergedObjectsCount").replace("{n}", mergedCount)), 1600);
+  }
 }
 
 /* --- Als Datei sichern (Download) / aus Datei öffnen (Upload) --- */
@@ -1790,10 +1855,27 @@ function importModelFromFile(file){
 }
 document.getElementById("btnExportFile").addEventListener("click", exportModelToFile);
 document.getElementById("btnShareFile").addEventListener("click", shareModelFile);
-document.getElementById("btnImportFile").addEventListener("click", ()=>document.getElementById("fileImportInput").click());
+document.getElementById("btnImportFile").addEventListener("click", ()=>{ pendingFileMode="open"; document.getElementById("fileImportInput").click(); });
 document.getElementById("fileImportInput").addEventListener("change",(ev)=>{
   const file = ev.target.files[0];
-  if(file) importModelFromFile(file);
+  const mode = pendingFileMode;
+  pendingFileMode = "open";
+  if(!file){ ev.target.value=""; return; }
+  if(mode==="open"){
+    importModelFromFile(file);
+  } else {
+    const reader = new FileReader();
+    reader.onload = ()=>{
+      try{
+        const raw = JSON.parse(reader.result);
+        const data = normalizeLoadedModel(raw);
+        remapAndImport(data, mode==="merge");
+        toast((mode==="merge"?t("mergedWith"):t("coupledWith"))+(data.name||file.name));
+        if(mode==="couple"){ setConnectMode(true); toast(t("coupleHint")); }
+      }catch(err){ toast(t("modelCouldNotLoad")); console.error(err); }
+    };
+    reader.readAsText(file);
+  }
   ev.target.value = "";
 });
 
@@ -1801,8 +1883,59 @@ document.getElementById("fileImportInput").addEventListener("change",(ev)=>{
    13. MODALS
 --------------------------------------------------------------- */
 function openModal(html){ document.getElementById("modalBody").innerHTML = html; document.getElementById("modalRoot").classList.add("open"); }
-function closeModal(){ document.getElementById("modalRoot").classList.remove("open"); }
+function closeModal(){ document.getElementById("modalRoot").classList.remove("open"); document.getElementById("modalBody").classList.remove("modal-wide"); }
 document.getElementById("modalRoot").addEventListener("click",(ev)=>{ if(ev.target.id==="modalRoot") closeModal(); });
+
+const HELP_CONTENT = {
+de: `<h3>❓ Kurzanleitung</h3>
+<div class="help-body">
+<h4>Erste Schritte</h4>
+<p>Ein bestehendes Modell über „Menü" → „Öffnen" laden, oder mit „Neues Modell" bei null anfangen. „+ Objekt" legt ein neues Objekt an.</p>
+<h4>Klassen &amp; Objekte</h4>
+<p>Jedes Objekt gehört zu einer Klasse (z. B. Person, Stadt, Unternehmen) mit eigenem Icon, eigener Farbe und passenden Feldern. Ein neues Objekt startet als „Unbestimmt" und wird im Inspektor rechts einer Klasse zugewiesen.</p>
+<h4>Beziehungen</h4>
+<p>„🔗 Verbinden" im Menü aktivieren, dann von einem Objekt zum anderen ziehen, um eine Kante zu erstellen. Rolle und Kommentar der Beziehung lassen sich im Inspektor bearbeiten.</p>
+<h4>Bemerkung</h4>
+<p>Jedes Objekt hat zusätzlich ein Feld „Bemerkung" für Notizen, die zu keinem anderen Feld passen.</p>
+<h4>Suche &amp; Fokus</h4>
+<p>Über das Suchfeld unten ein Objekt finden. Nach Auswahl zeigt die Ansicht automatisch nur die erste Beziehungsebene — ein „+" am Objekt blendet weitere Nachbarn ein.</p>
+<h4>2D / 3D</h4>
+<p>Mit dem Schalter unten zwischen flacher und räumlicher Ansicht wechseln. „Neu anordnen" berechnet die Positionen neu.</p>
+<h4>Spracheingabe</h4>
+<p>Das Mikrofon-Symbol neben Textfeldern nimmt gesprochenen Text auf (Chrome/Edge, Internetverbindung nötig).</p>
+<h4>Speichern, Teilen, Öffnen</h4>
+<p>„Speichern" legt das Modell lokal im Browser ab. Über „Menü" lässt sich das Modell zusätzlich als Datei herunterladen, teilen (E-Mail/WhatsApp/nativ) oder aus einer Datei laden.</p>
+<h4>Fusionieren &amp; Koppeln</h4>
+<p>„Fusionieren" führt zwei Modelle zusammen — Objekte mit gleichem Namen und gleicher Klasse werden automatisch zu einem Objekt vereint, abweichende Werte landen in der Bemerkung. „Koppeln" fügt ein zweites Modell separat daneben ein, um beide Modelle manuell über eine Kante zu verbinden.</p>
+</div>`,
+en: `<h3>❓ Quick Guide</h3>
+<div class="help-body">
+<h4>Getting Started</h4>
+<p>Load an existing model via "Menu" → "Open", or start fresh with "New Model". "+ Object" creates a new object.</p>
+<h4>Classes &amp; Objects</h4>
+<p>Every object belongs to a class (e.g. Person, City, Company) with its own icon, color, and fields. A new object starts as "Unassigned" and is given a class in the inspector on the right.</p>
+<h4>Relationships</h4>
+<p>Turn on "🔗 Connect" in the menu, then drag from one object to another to create an edge. The role and comment of a relationship can be edited in the inspector.</p>
+<h4>Remark</h4>
+<p>Every object also has a "Remark" field for notes that don't fit any other field.</p>
+<h4>Search &amp; Focus</h4>
+<p>Use the search field at the bottom to find an object. Once selected, the view automatically shows only its first-degree relationships — a "+" on an object reveals further neighbors.</p>
+<h4>2D / 3D</h4>
+<p>Use the switch at the bottom to toggle between the flat diagram and the spatial view. "Rearrange" recalculates positions.</p>
+<h4>Voice Input</h4>
+<p>The microphone icon next to text fields records spoken text (Chrome/Edge, requires an internet connection).</p>
+<h4>Save, Share, Open</h4>
+<p>"Save" stores the model locally in the browser. From "Menu" you can also download the model as a file, share it (email/WhatsApp/native share), or load one from a file.</p>
+<h4>Merge &amp; Couple</h4>
+<p>"Merge" combines two models — objects with the same name and class are automatically unified into one, with differing values recorded in the Remark field. "Couple" inserts a second model alongside the current one so you can connect both manually with an edge.</p>
+</div>`
+};
+function showHelpModal(){
+  document.getElementById("modalBody").classList.add("modal-wide");
+  openModal(`${HELP_CONTENT[lang] || HELP_CONTENT.de}<div class="modal-actions"><button class="btn primary" id="closeHelpBtn">${t("close")}</button></div>`);
+  document.getElementById("closeHelpBtn").onclick = closeModal;
+}
+document.getElementById("btnHelp").addEventListener("click", showHelpModal);
 
 function showSaveModal(){
   openModal(`
@@ -1822,12 +1955,13 @@ async function showOpenModal(mode){
   // mode: 'open' | 'merge' | 'couple'
   const items = await listSavedModels();
   const title = mode==="open" ? t("openModalTitleOpen") : mode==="merge" ? t("openModalTitleMerge") : t("openModalTitleCouple");
-  const diskBtnHtml = mode==="open" ? `<button class="btn" id="openFromDiskBtn">${t("openFromDisk")}</button>` : "";
-  const diskHintHtml = mode==="open" ? `<p class="hint">${t("openFromDiskHint")}</p>` : "";
-  if(!items.length){ openModal(`<h3>${title}</h3><p class="hint">${t("noSavedModels")}</p>${diskHintHtml}<div class="modal-actions">${diskBtnHtml}<button class="btn" id="closeM">${t("close")}</button></div>`); document.getElementById("closeM").onclick=closeModal; if(mode==="open"){ document.getElementById("openFromDiskBtn").onclick=()=>{ closeModal(); document.getElementById("fileImportInput").click(); }; } return; }
+  const diskBtnHtml = `<button class="btn" id="openFromDiskBtn">${t("openFromDisk")}</button>`;
+  const diskHintHtml = `<p class="hint">${t("openFromDiskHint")}</p>`;
+  const triggerDiskPick = ()=>{ pendingFileMode = mode; closeModal(); document.getElementById("fileImportInput").click(); };
+  if(!items.length){ openModal(`<h3>${title}</h3><p class="hint">${t("noSavedModels")}</p>${diskHintHtml}<div class="modal-actions">${diskBtnHtml}<button class="btn" id="closeM">${t("close")}</button></div>`); document.getElementById("closeM").onclick=closeModal; document.getElementById("openFromDiskBtn").onclick=triggerDiskPick; return; }
   openModal(`<h3>${title}</h3><ul class="modal-list">${items.map(it=>`<li data-key="${it.key}"><span>${it.name}</span><span class="tag" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft)">${it.count}${t("objectsCount")}</span></li>`).join("")}</ul>${diskHintHtml}<div class="modal-actions">${diskBtnHtml}<button class="btn" id="closeM">${t("cancel")}</button></div>`);
   document.getElementById("closeM").onclick=closeModal;
-  if(mode==="open"){ document.getElementById("openFromDiskBtn").onclick=()=>{ closeModal(); document.getElementById("fileImportInput").click(); }; }
+  document.getElementById("openFromDiskBtn").onclick=triggerDiskPick;
   document.querySelectorAll(".modal-list li").forEach(li=>{
     li.addEventListener("click", async ()=>{
       const key = li.getAttribute("data-key");
@@ -1870,6 +2004,7 @@ function applyStaticTranslations(){
   document.getElementById("btnShareFileLabel").textContent = t("shareFile");
   document.getElementById("btnShareFile").title = t("shareFileTitle");
   document.getElementById("menuToggleLabel").textContent = t("menuButton");
+  document.getElementById("btnHelp").title = t("helpButtonTitle");
   document.getElementById("btnImportFile").textContent = t("importFile");
   document.getElementById("btnImportFile").title = t("importFileTitle");
   document.getElementById("btnConnectMode").textContent = t("connect");
