@@ -80,3 +80,5 @@ This also gives you a secure (https://) origin, which some browser features (spe
 
 Contributing / working together
 Because everything is plain JSON and plain HTML, this repo works well with ordinary git workflows — meaningful diffs, pull requests, and no merge tooling beyond what GitHub already gives you. If you're extending the class system, keep new classes to five fields where you can; Remark is already there to catch the rest.
+
+New feature since 15.09.2026: An integrated AI chat function connected to the displayed model. The AI can also place objects and define relationships using either chat or voice commands.
