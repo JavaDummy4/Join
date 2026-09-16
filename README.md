@@ -2,6 +2,8 @@
 
 <img width="976" height="2168" alt="sticker_1789578707490" src="https://github.com/user-attachments/assets/cf6e0ef9-2c39-4b7a-b3da-ab7e47caaf51" />
 
+<img width="976" height="2168" alt="sticker_1789579234236" src="https://github.com/user-attachments/assets/53107921-343a-4ecb-9859-e7200447cc0c" />
+
 Join
 One HTML file. Any subject. Every relationship, visible.
 
