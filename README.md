@@ -77,8 +77,6 @@ models/ in this repo collects a few finished examples to load and explore:
 
 | Model | What's in it |
 |-------|--------------|
-| Braunau am Inn | A full municipal model: administration, departments, staff, tourism, accommodations |
-| Schneeweis – Namensherkunft | Etymology and geographic spread of a surname — no individual people |
 | Fluglinien-Allianzen und Flotten | Star Alliance, oneworld, and SkyTeam, 61 airlines, fleet composition by aircraft type |
 | Europäische und asiatische Autohersteller | Manufacturer groups, brands, models by powertrain, production countries and continents |
 | Canon RF Objektive EOS R7 | Every current Canon RF/RF-S autofocus lens with specs, grouped by category |
