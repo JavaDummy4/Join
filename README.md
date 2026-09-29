@@ -4,6 +4,8 @@ https://javadummy4.github.io/Join/
 
 <img width="1080" height="2400" alt="Screenshot_20260929_173835_Chrome" src="https://github.com/user-attachments/assets/3907568c-4e61-4fce-81d2-a0d6dc0196d2" />
 
+<img width="1080" height="2400" alt="Screenshot_20260929_174935_Chrome" src="https://github.com/user-attachments/assets/f7e24ced-093d-4528-a899-6e114e99eaac" />
+
 <img width="1080" height="2400" alt="Screenshot_20260929_174149_Chrome" src="https://github.com/user-attachments/assets/d2bb1770-116a-4064-96f8-b9ff8b8f0322" />
 
 <img width="1080" height="2400" alt="Screenshot_20260929_173748_Chrome" src="https://github.com/user-attachments/assets/bafbf11a-03ec-4987-885a-7d80966ae268" />
