@@ -10,6 +10,9 @@ https://javadummy4.github.io/Join/
 
 <img width="1080" height="2400" alt="Screenshot_20260929_173748_Chrome" src="https://github.com/user-attachments/assets/bafbf11a-03ec-4987-885a-7d80966ae268" />
 
+Full Report
+<img width="1080" height="2130" alt="Screenshot_20260929_175723_Chrome~2" src="https://github.com/user-attachments/assets/d852572d-4bb4-425d-9409-90dc78bd5b2a" />
+
 
 Join
 One HTML file. Any subject. Every relationship, visible.
