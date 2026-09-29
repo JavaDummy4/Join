@@ -2,6 +2,8 @@ https://javadummy4.github.io/Join/
 
 https://notebooklm.link.google/Bms9A1zwE5HH
 
+https://notebooklm.link.google/Y6c9mUMzjQ23
+
 <img width="1080" height="2400" alt="Screenshot_20260929_173810_Chrome" src="https://github.com/user-attachments/assets/d367ffbd-5a9a-4bdb-8eea-8a44ad9d7de9" />
 
 <img width="1080" height="2400" alt="Screenshot_20260929_173835_Chrome" src="https://github.com/user-attachments/assets/3907568c-4e61-4fce-81d2-a0d6dc0196d2" />
