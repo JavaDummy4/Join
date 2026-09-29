@@ -1,12 +1,13 @@
 https://javadummy4.github.io/Join/
 
-<img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/2fbf4cae-406e-46e2-83cd-6ae0bb8ef5b7" />
+<img width="1080" height="2400" alt="Screenshot_20260929_173810_Chrome" src="https://github.com/user-attachments/assets/d367ffbd-5a9a-4bdb-8eea-8a44ad9d7de9" />
 
-<img width="976" height="2168" alt="sticker_1789578707490" src="https://github.com/user-attachments/assets/cf6e0ef9-2c39-4b7a-b3da-ab7e47caaf51" />
+<img width="1080" height="2400" alt="Screenshot_20260929_173835_Chrome" src="https://github.com/user-attachments/assets/3907568c-4e61-4fce-81d2-a0d6dc0196d2" />
 
-<img width="976" height="2168" alt="sticker_1789579234236" src="https://github.com/user-attachments/assets/53107921-343a-4ecb-9859-e7200447cc0c" />
+<img width="1080" height="2400" alt="Screenshot_20260929_174149_Chrome" src="https://github.com/user-attachments/assets/d2bb1770-116a-4064-96f8-b9ff8b8f0322" />
 
-<img width="976" height="2168" alt="sticker_1789579461075" src="https://github.com/user-attachments/assets/fe38e1a6-34ad-459d-bb42-3b7846fd20e2" />
+<img width="1080" height="2400" alt="Screenshot_20260929_173748_Chrome" src="https://github.com/user-attachments/assets/bafbf11a-03ec-4987-885a-7d80966ae268" />
+
 
 Join
 One HTML file. Any subject. Every relationship, visible.
